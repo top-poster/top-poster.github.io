@@ -1,14 +1,14 @@
 # Site settings
-title: CSS Dev
-description: "ui 개발에 필요한 내용을 정리하고 있습니다."
-url: "https://uidev-css.github.io/"
+title: CODE TOWER
+description: "code tower"
+url: "https://code-tower.github.io/"
 
 # Google Analytics
 google_analytics: G-4E7S0P2MWC
 
 # Author
 author:
-    name: CSS Dev
+    name: CODE TOWER
     url:
     email:
 
