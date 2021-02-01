@@ -4,7 +4,7 @@ title: "6 가지 쉬운 단계로 기존 WordPress 사이트를 보호하는 방
  "
 author: 'Code Tower'
 thumbnail: https://www.freecodecamp.org/news/content/images/size/w600/2021/01/wordpress-site-security-tips.jpg
-tags: WORDPRESS
+tags: undefined
 ---
 
 
@@ -144,7 +144,7 @@ WordPress는 소프트웨어의 한 부분이므로 취약점이 발견되면이
  여기에 다음을 포함하십시오.
  
 
-```undefined
+```php
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -186,7 +186,7 @@ Deny from all
 파일에 다음 행을 추가하십시오.
  
 
-```undefined
+```php
 define( 'WP_DEBUG', false);
 ```
 
@@ -212,7 +212,7 @@ define( 'WP_DEBUG', false);
  해피 퍼블리싱 `:
  
 
-```undefined
+```php
 define( 'DISALLOW_FILE_EDIT', true );
 ```
 
