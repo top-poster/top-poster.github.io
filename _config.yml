@@ -1,14 +1,14 @@
 # Site settings
-title: CODE TOWER
-description: "code tower"
-url: "https://code-tower.github.io/"
+title: Front Log
+description: "Front Log"
+url: "https://front-log.github.io/"
 
 # Google Analytics
 google_analytics: G-4E7S0P2MWC
 
 # Author
 author:
-    name: CODE TOWER
+    name: Front Log
     url:
     email:
 

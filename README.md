@@ -1,4 +1,4 @@
-https://itposting.github.io/
+https://front-log.github.io/
 
 # Tale
 
