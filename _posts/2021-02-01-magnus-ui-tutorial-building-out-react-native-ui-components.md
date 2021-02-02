@@ -133,7 +133,7 @@ react-navigation과 Expo 상용구가 이미 대부분을 구축했기 때문에
 ```xml
    <BottomTab.Navigator
       initialRouteName="TabOne"
-      tabBarOptions={{
+      tabBarOptions={
           showLabel: false,
           activeTintColor: Colors[colorScheme].tint,
           style: {
@@ -147,34 +147,34 @@ react-navigation과 Expo 상용구가 이미 대부분을 구축했기 때문에
               paddingHorizontal: 20,
               backgroundColor: Colors[colorScheme].tabBarBackground,
           }
-      }}>
+      }>
       <BottomTab.Screen
         name="TabOne"
         component={TabOneNavigator}
-        options={{
+        options={
           tabBarIcon: ({ color }) => <TabBarIcon name="ios-home" color={color} />,
-        }}
+        }
       />
       <BottomTab.Screen
         name="TabTwo"
         component={TabTwoNavigator}
-        options={{
+        options={
           tabBarIcon: ({ color }) => <TabBarIcon name="ios-folder-outline" color={color} />,
-        }}
+        }
       />
       <BottomTab.Screen
         name="TabThree"
         component={TabTwoNavigator}
-        options={{
+        options={
           tabBarIcon: ({ color }) => <TabBarIcon name="ios-chatbox-outline" color={color} />,
-        }}
+        }
       />
       <BottomTab.Screen
         name="TabFour"
         component={TabTwoNavigator}
-        options={{
+        options={
           tabBarIcon: ({ color }) => <TabBarIcon name="ios-cog" color={color} />,
-        }}
+        }
       />
     </BottomTab.Navigator>
 ```
@@ -193,7 +193,7 @@ react-navigation과 Expo 상용구가 이미 대부분을 구축했기 때문에
  
 
 ```js
- return <Ionicons size={25} style={{ marginBottom: -5 }} {...props} />;
+ return <Ionicons size={25} style={ marginBottom: -5 } {...props} />;
 ```
 
 위의 변경으로 인해 TypeScript는 유형을 올바르게 정의하지 않고 두 개의 새 탭을 추가했기 때문에 약간의 불만이 있습니다.
@@ -263,9 +263,9 @@ const ElarnTheme = {
   <TabOneStack.Screen
         name="TabOneScreen"
         component={TabOneScreen}
-        options={{
+        options={
             headerShown: false
-        }}
+        }
       />
 ```
 
@@ -300,7 +300,7 @@ export default function TabOneScreen() {
                     </Div>
                     <Text fontSize="lg">Let's upgrade your skill</Text>
                 </Div>
-                <Avatar shadow={1} source={{uri: 'https://i.pravatar.cc/300'}}/>
+                <Avatar shadow={1} source={uri: 'https://i.pravatar.cc/300'}/>
             </Div>
             <Div my={30}>
                 <Input
@@ -439,7 +439,7 @@ export default function CourseDetailScreen({route}: StackScreenProps<TabOneParam
     const { category }: { category: Category } = route.params;
     const headerHeight = useHeaderHeight();
     return (
-        <ScrollView style={{marginTop: headerHeight}}>
+        <ScrollView style={marginTop: headerHeight}>
             <Div px={25}>
                 <Div row mt={15} mb={15} justifyContent="space-between">
                     <Div pb={50}>
@@ -752,7 +752,7 @@ export default function TabOneScreen({ navigation }: StackScreenProps<any>) {
       <TabOneStack.Screen
           name="CourseDetailScreen"
           component={CourseDetailScreen}
-          options={{
+          options={
               headerTransparent: true,
               headerBackTitleVisible: false,
               headerTitle: '',
@@ -760,7 +760,7 @@ export default function TabOneScreen({ navigation }: StackScreenProps<any>) {
                   <Button bg="transparent" p="none" {...props} ml={20}>
                       <Ionicons name="arrow-back" size={30} />
                   </Button>
-          }}
+          }
       />
       </TabOneStack.Navigator>
 ```
@@ -789,7 +789,7 @@ export default function TabOneScreen({ navigation }: StackScreenProps<any>) {
       <Stack.Screen
         name="CourseDetailScreen"
         component={CourseDetailScreen}
-        options={{
+        options={
             headerShown: true,
             headerTransparent: true,
             headerBackTitleVisible: false,
@@ -798,7 +798,7 @@ export default function TabOneScreen({ navigation }: StackScreenProps<any>) {
                 <Button bg="transparent" p="none" {...props} ml={20}>
                     <Ionicons name="arrow-back" size={30} />
                 </Button>
-        }}
+        }
       />
 ```
 
