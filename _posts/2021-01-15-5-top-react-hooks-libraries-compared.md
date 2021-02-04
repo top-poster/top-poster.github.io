@@ -386,8 +386,8 @@ export default function App() {
   const { x, y } = useScroll(scrollRef);
 
   return (
-    <div ref={scrollRef} style={{ height: 300, overflowY: "scroll" }}>
-      <div style={{ position: "fixed" }}>
+    <div ref={scrollRef} style={ height: 300, overflowY: "scroll" }>
+      <div style={ position: "fixed" }>
         <div>x: {x}</div>
         <div>y: {y}</div>
       </div>

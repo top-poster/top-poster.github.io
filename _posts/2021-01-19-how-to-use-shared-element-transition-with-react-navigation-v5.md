@@ -154,14 +154,14 @@ const ITEM_HEIGHT = ITEM_WIDTH * 0.9;
 ```xml
 export default function HomeScreen({ navigation }) {
   return (
-    <View style={{ flex: 1, backgroundColor: '#0f0f0f' }}>
+    <View style={ flex: 1, backgroundColor: '#0f0f0f' }>
       <StatusBar hidden />
       {/* Header */}
-      <View style={{ marginTop: 50, marginBottom: 20, paddingHorizontal: 20 }}>
-        <Text style={{ color: '#888', textTransform: 'uppercase' }}>
+      <View style={ marginTop: 50, marginBottom: 20, paddingHorizontal: 20 }>
+        <Text style={ color: '#888', textTransform: 'uppercase' }>
           Saturday 9 January
         </Text>
-        <Text style={{ color: '#fff', fontSize: 32, fontWeight: '600' }}>
+        <Text style={ color: '#fff', fontSize: 32, fontWeight: '600' }>
           Today
         </Text>
       </View>
@@ -179,54 +179,54 @@ export default function HomeScreen({ navigation }) {
 ```js
 return (
   {/* Scrollable content */}
-<View style={{ flex: 1, paddingBottom: 20 }}>
+<View style={ flex: 1, paddingBottom: 20 }>
   <ScrollView
     indicatorStyle='white'
-    contentContainerStyle={{ alignItems: 'center' }}
+    contentContainerStyle={ alignItems: 'center' }
   >
     {data.map(item => (
       <View key={item.id}>
         <TouchableOpacity
           activeOpacity={0.8}
-          style={{ marginBottom: 14 }}
+          style={ marginBottom: 14 }
           onPress={() => navigation.navigate('DetailScreen', { item })}
         >
           <Image
-            style={{
+            style={
               borderRadius: 14,
               width: ITEM_WIDTH,
               height: ITEM_HEIGHT
-            }}
-            source={{ uri: item.image_url }}
+            }
+            source={ uri: item.image_url }
             resizeMode='cover'
           />
           <View
-            style={{
+            style={
               position: 'absolute',
               bottom: 20,
               left: 10
-            }}
+            }
           >
-            <View style={{ flexDirection: 'row' }}>
+            <View style={ flexDirection: 'row' }>
               <SimpleLineIcons size={40} color='white' name={item.iconName} />
-              <View style={{ flexDirection: 'column', paddingLeft: 6 }}>
+              <View style={ flexDirection: 'column', paddingLeft: 6 }>
                 <Text
-                  style={{
+                  style={
                     color: 'white',
                     fontSize: 24,
                     fontWeight: 'bold',
                     lineHeight: 28
-                  }}
+                  }
                 >
                   {item.title}
                 </Text>
                 <Text
-                  style={{
+                  style={
                     color: 'white',
                     fontSize: 16,
                     fontWeight: 'bold',
                     lineHeight: 18
-                  }}
+                  }
                 >
                   {item.description}
                 </Text>
@@ -268,53 +268,53 @@ const ITEM_HEIGHT = height * 0.5;
 const DetailScreen = ({ navigation, route }) => {
   const { item } = route.params;
   return (
-    <View style={{ flex: 1, backgroundColor: '#0f0f0f' }}>
+    <View style={ flex: 1, backgroundColor: '#0f0f0f' }>
       <Image
-        source={{ uri: item.image_url }}
-        style={{
+        source={ uri: item.image_url }
+        style={
           width: '100%',
           height: ITEM_HEIGHT,
           borderBottomLeftRadius: 20,
           borderBottomRightRadius: 20
-        }}
+        }
         resizeMode='cover'
       />
       <MaterialCommunityIcons
         name='close'
         size={28}
         color='#fff'
-        style={{
+        style={
           position: 'absolute',
           top: 40,
           right: 20,
           zIndex: 2
-        }}
+        }
         onPress={() => {
           navigation.goBack();
-        }}
+        }
       />
       <View
-        style={{ flexDirection: 'row', marginTop: 10, paddingHorizontal: 20 }}
+        style={ flexDirection: 'row', marginTop: 10, paddingHorizontal: 20 }
       >
         <SimpleLineIcons size={40} color='white' name={item.iconName} />
-        <View style={{ flexDirection: 'column', paddingLeft: 6 }}>
+        <View style={ flexDirection: 'column', paddingLeft: 6 }>
           <Text
-            style={{
+            style={
               color: 'white',
               fontSize: 24,
               fontWeight: 'bold',
               lineHeight: 28
-            }}
+            }
           >
             {item.title}
           </Text>
           <Text
-            style={{
+            style={
               color: 'white',
               fontSize: 16,
               fontWeight: 'bold',
               lineHeight: 18
-            }}
+            }
           >
             {item.description}
           </Text>
@@ -322,19 +322,19 @@ const DetailScreen = ({ navigation, route }) => {
       </View>
       <ScrollView
         indicatorStyle='white'
-        style={{
+        style={
           paddingHorizontal: 20,
           backgroundColor: '#0f0f0f'
-        }}
-        contentContainerStyle={{ paddingVertical: 20 }}
+        }
+        contentContainerStyle={ paddingVertical: 20 }
       >
         <Text
-          style={{
+          style={
             fontSize: 18,
             color: '#fff',
             lineHeight: 24,
             marginBottom: 4
-          }}
+          }
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -345,12 +345,12 @@ const DetailScreen = ({ navigation, route }) => {
           culpa qui officia deserunt mollit anim id est laborum.
         </Text>
         <Text
-          style={{
+          style={
             fontSize: 18,
             color: '#fff',
             lineHeight: 24,
             marginBottom: 4
-          }}
+          }
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -436,12 +436,12 @@ return (
   // ...
   <SharedElement id={`item.${item.id}.image_url`}>
     <Image
-      style={{
+      style={
         borderRadius: 14,
         width: ITEM_WIDTH,
         height: ITEM_HEIGHT
-      }}
-      source={{ uri: item.image_url }}
+      }
+      source={ uri: item.image_url }
       resizeMode='cover'
     />
   </SharedElement>
@@ -462,13 +462,13 @@ return (
   // ...
   <SharedElement id={`item.${item.id}.image_url`}>
     <Image
-      source={{ uri: item.image_url }}
-      style={{
+      source={ uri: item.image_url }
+      style={
         width: '100%',
         height: ITEM_HEIGHT,
         borderBottomLeftRadius: 20,
         borderBottomRightRadius: 20
-      }}
+      }
       resizeMode='cover'
     />
   </SharedElement>
@@ -564,12 +564,12 @@ return (
   //Title
   <SharedElement id={`item.${item.id}.title`}>
   <Text
-    style={{
+    style={
       color: 'white',
       fontSize: 24,
       fontWeight: 'bold',
       lineHeight: 28
-    }}
+    }
   >
     {item.title}
   </Text>
@@ -577,12 +577,12 @@ return (
   // Description
   <SharedElement id={`item.${item.id}.description`}>
   <Text
-    style={{
+    style={
       color: 'white',
       fontSize: 16,
       fontWeight: 'bold',
       lineHeight: 18
-    }}
+    }
   >
     {item.description}
   </Text>
@@ -601,12 +601,12 @@ return (
 // Title
 <SharedElement id={`item.${item.id}.title`}>
   <Text
-    style={{
+    style={
       color: 'white',
       fontSize: 24,
       fontWeight: 'bold',
       lineHeight: 28
-    }}
+    }
   >
     {item.title}
   </Text>
@@ -614,12 +614,12 @@ return (
 // Description
 <SharedElement id={`item.${item.id}.description`}>
   <Text
-    style={{
+    style={
       color: 'white',
       fontSize: 16,
       fontWeight: 'bold',
       lineHeight: 18
-    }}
+    }
   >
     {item.description}
   </Text>
@@ -701,17 +701,17 @@ const DetailScreen = ({ navigation, route }) => {
         name='close'
         size={28}
         color='#fff'
-        style={{
+        style={
           position: 'absolute',
           top: 40,
           right: 20,
           zIndex: 2
-        }}
+        }
         onPress={() => {
           buttonRef.current.fadeOut(100).then(() => {
             navigation.goBack();
           });
-        }}
+        }
       />
     </Animatable.View>
   );

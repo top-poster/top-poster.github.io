@@ -56,7 +56,7 @@ function SpringDemo() {
   return (
     <div onClick={() => toggle(!state)}>
       <animated.div
-        style={{
+        style={
           opacity: x.interpolate({ range: [0, 1], output: [0.3, 1] }),
           transform: x
             .interpolate({
@@ -64,7 +64,7 @@ function SpringDemo() {
               output: [1, 0.97, 0.9, 1.1, 0.9, 1.1, 1.03, 1]
             })
             .interpolate(x => `scale(${x})`)
-        }}>
+        }>
         Hello React Spring
       </animated.div>
     </div>
@@ -135,9 +135,9 @@ export default function App() {
     <motion.div
       className="block"
       onClick={() => setIsActive(!isActive)}
-      animate={{
+      animate={
         rotate: isActive ? 180 : 360
-      }}
+      }
     >
       Hello Framer motion
     </motion.div>
@@ -291,10 +291,10 @@ const AnimatedGridContents = props => {
             <div
               className="card"
               key={props.items[i]}
-              style={{
+              style={
                 opacity: style.opacity,
                 transform: `translateY(${style.translateY}px)`
-              }}
+              }
             >
               {props.items[i]}
             </div>

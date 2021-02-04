@@ -368,7 +368,7 @@ const Home = () => {
             bg="linear-gradient(96.91deg, #BDC3DD 5.3%, #000000 83.22%)"
             w={"100%"}
             color="white"
-            _hover={{ color: "black", bg: "white" }}
+            _hover={ color: "black", bg: "white" }
           >
             See past projects
           </Button>

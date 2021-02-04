@@ -1237,12 +1237,12 @@ const DataList = (props) => {
     <ListContainer>
       <List
         header={
-          <div style={{ display: "flex" }}>
+          <div style={ display: "flex" }>
             <Input
               placeholder="Enter todo name"
               value={description}
               onChange={(event) => updateDescription(event.target.value)}
-              style={{ marginRight: "10px" }}
+              style={ marginRight: "10px" }
               onKeyDown={handleKeyPress}
             />
             <Button name="add" onClick={handleSubmit}>

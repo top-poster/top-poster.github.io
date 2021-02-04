@@ -706,7 +706,7 @@ MobX 및 React를 사용하여 펫 상태의 항목을 나열하는 테이블과
           <td>
             <button
               onClick={() => handleDeletePet(pet)}
-              style={{ marginRight: "1rem" }}
+              style={ marginRight: "1rem" }
             >
               Delete {pet.name}
             </button>
@@ -829,7 +829,7 @@ function PetList({ store }) {
                 <td>
                   <button
                     onClick={() => handleDeletePet(pet)}
-                    style={{ marginRight: "1rem" }}
+                    style={ marginRight: "1rem" }
                   >
                     Delete {pet.name}
                   </button>
@@ -932,7 +932,7 @@ function OwnerList({ store }) {
                 <td>
                   <button
                     onClick={() => handleDeleteOwner(owner)}
-                    style={{ marginRight: "1rem" }}
+                    style={ marginRight: "1rem" }
                   >
                     Delete {owner.firstName}
                   </button>

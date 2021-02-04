@@ -210,7 +210,7 @@ const { Provider, Consumer } = newContext;
 
 ```xml
 <Consumer>
-  {value => <span>{value}</span>}}
+  {value => <span>{value}</span>}
 </Consumer>
 ```
 
@@ -313,7 +313,7 @@ const StateProvider = ( { children } ) => {
     };
   }, initialState);
 
-  return <Provider value={{ state, dispatch }}>{children}</Provider>;
+  return <Provider value={ state, dispatch }>{children}</Provider>;
 };
 
 export { store, StateProvider }

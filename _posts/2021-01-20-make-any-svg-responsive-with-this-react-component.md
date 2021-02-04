@@ -52,7 +52,7 @@ export const App: React.FC = () => (
       width="1000"
       height="1000"
       rx="20"
-      style={{ fill: '#ff0000', stroke: '#000000', strokeWidth: '2px' }}
+      style={ fill: '#ff0000', stroke: '#000000', strokeWidth: '2px' }
     />
 
     <rect
@@ -61,7 +61,7 @@ export const App: React.FC = () => (
       width="1000"
       height="1000"
       rx="40"
-      style={{ fill: '#0000ff', stroke: '#000000', strokeWidth: '2px', fillOpacity: 0.7 }}
+      style={ fill: '#0000ff', stroke: '#000000', strokeWidth: '2px', fillOpacity: 0.7 }
     />
   </svg>
 );
@@ -111,7 +111,7 @@ export const App: React.FC = () => (
       width="1000"
       height="1000"
       rx="20"
-      style={{ fill: '#ff0000', stroke: '#000000', strokeWidth: '2px' }}
+      style={ fill: '#ff0000', stroke: '#000000', strokeWidth: '2px' }
     />
 
     <rect
@@ -120,7 +120,7 @@ export const App: React.FC = () => (
       width="1000"
       height="1000"
       rx="40"
-      style={{ fill: '#0000ff', stroke: '#000000', strokeWidth: '2px', fillOpacity: 0.7 }}
+      style={ fill: '#0000ff', stroke: '#000000', strokeWidth: '2px', fillOpacity: 0.7 }
     />
   </svg>
 );
@@ -227,14 +227,14 @@ export function ResponsiveSVG<E extends HTMLElement = HTMLElement>({
   return (
     <div
       data-selector="cutting-svg-container"
-      style={{
+      style={
         position: 'relative',
         overflow: 'visible',
         height: '1px',
-      }}
+      }
     >
       <svg
-        style={{ overflow: 'visible' }}
+        style={ overflow: 'visible' }
         className={className}
         preserveAspectRatio={preserveAspectRatio}
         viewBox={`0 0 ${width} ${adjustedHeight}`}
@@ -278,7 +278,7 @@ const adjustedHeight = Math.ceil(width / aspect);
 
 ```xml
 <svg
-  style={{ overflow: 'visible' }}
+  style={ overflow: 'visible' }
   className={className}
   preserveAspectRatio={preserveAspectRatio}
   viewBox={`0 0 ${width} ${adjustedHeight}`}

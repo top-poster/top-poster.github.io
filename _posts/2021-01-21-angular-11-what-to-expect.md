@@ -106,7 +106,7 @@ ng add @angular-eslint/schematics
  
 
 ```coffeescript
-ng g @angular-eslint/schematics:convert-tslint-to-eslint {{YOUR_PROJECT_NAME_GOES_HERE}}
+ng g @angular-eslint/schematics:convert-tslint-to-eslint {YOUR_PROJECT_NAME_GOES_HERE}
 ```
 
 마지막으로, ESLint 설정이 끝나면`tslint.json`을 삭제하고 프로젝트에서 TSLint를 제거합니다.

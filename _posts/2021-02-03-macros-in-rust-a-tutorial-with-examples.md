@@ -629,7 +629,7 @@ use quote::{quote};
 // _metadata is argument provided to macro call and _input is code to which attribute like macro attaches
 pub fn my_custom_attribute(_metadata: TokenStream, _input: TokenStream) -> TokenStream {
     // returing a simple TokenStream for Struct
-    TokenStream::from(quote!{struct H{}})
+    TokenStream::from(quote!{struct H{})
 }
 ```
 
@@ -689,7 +689,7 @@ fn do_something(){
 pub fn trace_vars(_metadata: TokenStream, input: TokenStream) -> TokenStream {
 // parsing rust function to easy to use struct
     let input_fn = parse_macro_input!(input as ItemFn);
-    TokenStream::from(quote!{fn dummy(){}})
+    TokenStream::from(quote!{fn dummy(){})
 }
 ```
 
@@ -731,7 +731,7 @@ pub fn trace_vars(metadata: TokenStream, input: TokenStream) -> TokenStream {
     let input_fn = parse_macro_input!(input as ItemFn);
 // using newly created struct Args
     let args= parse_macro_input!(metadata as Args);
-    TokenStream::from(quote!{fn dummy(){}})
+    TokenStream::from(quote!{fn dummy(){})
 }
 ```
 

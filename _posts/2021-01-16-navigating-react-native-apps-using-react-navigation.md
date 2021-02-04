@@ -204,7 +204,7 @@ import { createStackNavigator, createAppContainer } from 'react-navigation';
 export default class Homescreen extends Component {
   render() {
     return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <View style={ flex: 1, alignItems: 'center', justifyContent: 'center' }>
         <Text>Home Screen</Text>
           <Button
           title="Go to About"
@@ -228,7 +228,7 @@ import { createStackNavigator, createAppContainer } from 'react-navigation';
 export default class Aboutscreen extends Component {
   render() {
     return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <View style={ flex: 1, alignItems: 'center', justifyContent: 'center' }>
         <Text>About Screen</Text>
       </View>
     )
@@ -367,7 +367,7 @@ import React, { Component } from 'react'
 export default class ContactScreen extends Component {
   render() {
     return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <View style={ flex: 1, alignItems: 'center', justifyContent: 'center' }>
         <Text>Contact Screen</Text>
       </View>
     )
@@ -499,7 +499,7 @@ export default class HomeScreen extends Component {
 
   render() {
     return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <View style={ flex: 1, alignItems: 'center', justifyContent: 'center' }>
         <Text>Home Screen</Text>
         <Button
           title="Go to About"

@@ -342,7 +342,7 @@ test('displays a quote', () => {
 it('calls generateRandomQuote prop function when next button is clicked', () => {
   const generateRandomQuoteFn = jest.fn();
   const quote = mount(
-    <Quotes generateRandomQuote={generateRandomQuoteFn} quote={{}} />
+    <Quotes generateRandomQuote={generateRandomQuoteFn} quote={} />
   );
   const generateBtn = quote.find('#new-quote');
 

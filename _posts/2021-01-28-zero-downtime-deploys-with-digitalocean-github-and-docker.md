@@ -294,7 +294,7 @@ jobs:
       - name: Install DigitalOcean Controller
         uses: digitalocean/action-doctl@v2
         with:
-          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+          token: ${ secrets.DIGITALOCEAN_ACCESS_TOKEN }
       - name: Set up Docker Builder
         uses: docker/setup-buildx-action@v1
       - name: Authenticate with DigitalOcean Container Registry
@@ -306,7 +306,7 @@ jobs:
           push: true
           tags: |
             registry.digitalocean.com/<REGISTRY_NAME>/api:latest
-            registry.digitalocean.com/<REGISTRY_NAME>/api:sha-${{ github.sha }}
+            registry.digitalocean.com/<REGISTRY_NAME>/api:sha-${ github.sha }
 
   deploy-api-1:
     needs: build
@@ -316,9 +316,9 @@ jobs:
       - name: Deploy api to DigitalOcean Droplet
         uses: appleboy/ssh-action@v0.1.4
         with:
-          host: ${{ secrets.DO_API1_HOST }}
+          host: ${ secrets.DO_API1_HOST }
           username: root
-          key: ${{ secrets.DO_API_KEY }}
+          key: ${ secrets.DO_API_KEY }
           port: 22
           script: |
             doctl registry login --expiry-seconds 180
@@ -353,9 +353,9 @@ jobs:
       - name: Deploy api to DigitalOcean Droplet
         uses: appleboy/ssh-action@v0.1.4
         with:
-          host: ${{ secrets.DO_API2_HOST }}
+          host: ${ secrets.DO_API2_HOST }
           username: root
-          key: ${{ secrets.DO_API_KEY }}
+          key: ${ secrets.DO_API_KEY }
           port: 22
           script: |
             doctl registry login --expiry-seconds 180

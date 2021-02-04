@@ -364,7 +364,7 @@ const ArrayDepMount = () => {
       <button
         onClick={() => {
           setRandomNumber(Math.random())
-        }}
+        }
       >
         Generate random number!
       </button>
@@ -414,7 +414,7 @@ const ArrayDepMount = () => {
       <button
         onClick={() => {
           setRandomNumber(Math.random())
-        }}
+        }
       >
         Generate random number!
       </button>
@@ -496,12 +496,12 @@ const ThemeContext = React.createContext('light');
 const Display = () => {
  const theme = useContext(ThemeContext);
  return <div
-        style={{
+        style={
         background: theme === 'dark' ? 'black' : 'papayawhip',
         color: theme === 'dark' ? 'white' : 'palevioletred',
         width: '100%',
         minHeight: '200px'
-        }}
+        }
     >
         {'The theme here is ' + theme}
     </div>
@@ -553,7 +553,7 @@ const ArrayDep = () => {
         <button
           onClick={() => {
             setRandomNumber(Math.random())
-          }}
+          }
         >
           Generate random number!
         </button>
@@ -626,8 +626,8 @@ const reducer = (state, action) => {
 const Bar = () => {
   const [state, dispatch] = useReducer(reducer, initialState)
   return <>
-    <div style={{ background: 'teal', height: '30px', width: state.width }}></div>
-    <div style={{marginTop: '3rem'}}>
+    <div style={ background: 'teal', height: '30px', width: state.width }></div>
+    <div style={marginTop: '3rem'}>
         <button onClick={() => dispatch('plus')}>Increase bar size</button>
         <button onClick={() => dispatch('minus')}>Decrease bar size</button>
     </div>
@@ -669,8 +669,8 @@ const reducer = (state, action) => {
 const Bar = () => {
   const [state, dispatch] = useReducer(reducer, initialState, initializeState)
   return <>
-    <div style={{ background: 'teal', height: '30px', width: state.width }}></div>
-    <div style={{marginTop: '3rem'}}>
+    <div style={ background: 'teal', height: '30px', width: state.width }></div>
+    <div style={marginTop: '3rem'}>
         <button onClick={() => dispatch('plus')}>Increase bar size</button>
         <button onClick={() => dispatch('minus')}>Decrease bar size</button>
     </div>
@@ -701,8 +701,8 @@ const reducer = (state, newState) => ({
 const Bar = () => {
   const [state, setState] = useReducer(reducer, initialState)
   return <>
-    <div style={{ background: 'teal', height: '30px', width: state.width }}></div>
-    <div style={{marginTop: '3rem'}}>
+    <div style={ background: 'teal', height: '30px', width: state.width }></div>
+    <div style={marginTop: '3rem'}>
         <button onClick={() => setState({width: 100})}>Increase bar size</button>
         <button onClick={() => setState({width: 3})}>Decrease bar size</button>
     </div>
@@ -758,7 +758,7 @@ const App = () => {
 const Age = ({ age, handleClick }) => {
   return (
     <div>
-      <div style={{ border: '2px', background: "papayawhip", padding: "1rem" }}>
+      <div style={ border: '2px', background: "papayawhip", padding: "1rem" }>
         Today I am {age} Years of Age
       </div>
       <pre> - click the button below 👇 </pre>
@@ -769,7 +769,7 @@ const Age = ({ age, handleClick }) => {
 
 const Instructions = React.memo((props) => {
   return (
-    <div style={{ background: 'black', color: 'yellow', padding: "1rem" }}>
+    <div style={ background: 'black', color: 'yellow', padding: "1rem" }>
       <p>Follow the instructions above as closely as possible</p>
     </div>
   )
@@ -815,7 +815,7 @@ const App = () => {
 const Age = ({ age, handleClick }) => {
   return (
     <div>
-      <div style={{ border: '2px', background: "papayawhip", padding: "1rem" }}>
+      <div style={ border: '2px', background: "papayawhip", padding: "1rem" }>
         Today I am {age} Years of Age
       </div>
       <pre> - click the button below 👇 </pre>
@@ -826,7 +826,7 @@ const Age = ({ age, handleClick }) => {
 
 const Instructions = React.memo((props) => {
   return (
-    <div style={{ background: 'black', color: 'yellow', padding: "1rem" }}>
+    <div style={ background: 'black', color: 'yellow', padding: "1rem" }>
       <p>Follow the instructions above as closely as possible</p>
     </div>
   )
@@ -861,7 +861,7 @@ const App = () => {
 const Age = ({ age, handleClick }) => {
   return (
     <div>
-      <div style={{ border: '2px', background: "papayawhip", padding: "1rem" }}>
+      <div style={ border: '2px', background: "papayawhip", padding: "1rem" }>
         Today I am {age} Years of Age
       </div>
       <pre> - click the button below 👇 </pre>
@@ -872,7 +872,7 @@ const Age = ({ age, handleClick }) => {
 
 const Instructions = memo((props) => {
   return (
-    <div style={{ background: 'black', color: 'yellow', padding: "1rem" }}>
+    <div style={ background: 'black', color: 'yellow', padding: "1rem" }>
       <p>Follow the instructions above as closely as possible</p>
     </div>
   )
@@ -928,7 +928,7 @@ const App = () => {
 const Age = ({ age, handleClick }) => {
   return (
     <div>
-      <div style={{ border: '2px', background: "papayawhip", padding: "1rem" }}>
+      <div style={ border: '2px', background: "papayawhip", padding: "1rem" }>
         Today I am {age} Years of Age
       </div>
       <pre> - click the button below 👇 </pre>
@@ -939,7 +939,7 @@ const Age = ({ age, handleClick }) => {
 
 const Instructions = React.memo((props) => {
   return (
-    <div style={{ background: 'black', color: 'yellow', padding: "1rem" }}>
+    <div style={ background: 'black', color: 'yellow', padding: "1rem" }>
       <p>Follow the instructions above as closely as possible</p>
     </div>
   )
@@ -989,7 +989,7 @@ const App = () => {
 const Age = ({ age, handleClick }) => {
   return (
     <div>
-      <div style={{ border: '2px', background: "papayawhip", padding: "1rem" }}>
+      <div style={ border: '2px', background: "papayawhip", padding: "1rem" }>
         Today I am {age} Years of Age
       </div>
       <pre> - click the button below 👇 </pre>
@@ -1000,7 +1000,7 @@ const Age = ({ age, handleClick }) => {
 
 const Instructions = React.memo((props) => {
   return (
-    <div style={{ background: 'black', color: 'yellow', padding: "1rem" }}>
+    <div style={ background: 'black', color: 'yellow', padding: "1rem" }>
       <p>Follow the instructions above as closely as possible</p>
     </div>
   )
@@ -1042,18 +1042,18 @@ const AccessDOM = () => {
     textAreaEl.current.focus();
   };
   return (
-    <section style={{ textAlign: "center" }}>
+    <section style={ textAlign: "center" }>
       <div>
         <button onClick={handleBtnClick}>Focus and Populate Text Field</button>
       </div>
       <label
         htmlFor="story"
-        style={{
+        style={
           display: "block",
           background: "olive",
           margin: "1em",
           padding: "1em"
-        }}
+        }
       >
         The input box below will be focused and populated with some text
         (imperatively) upon clicking the button above.
@@ -1086,18 +1086,18 @@ const HoldStringVal = () => {
       textAreaEl.current.focus();
     };
     return (
-      <section style={{ textAlign: "center" }}>
+      <section style={ textAlign: "center" }>
         <div>
           <button onClick={handleBtnClick}>Focus and Populate Text Field</button>
         </div>
         <label
           htmlFor="story"
-          style={{
+          style={
             display: "block",
             background: "olive",
             margin: "1em",
             padding: "1em"
-          }}
+          }
         >
           Prepare to see text from the ref object here. Click button above.
         </label>
@@ -1181,13 +1181,13 @@ const fetchData = () => {
     <>
       <button
         onClick={() => setGender('male')}
-        style={{ outline: gender === 'male' ? '1px solid' : 0 }}
+        style={ outline: gender === 'male' ? '1px solid' : 0 }
       >
         Fetch Male User
       </button>
       <button
         onClick={() => setGender('female')}
-        style={{ outline: gender === 'female' ? '1px solid' : 0 }}
+        style={ outline: gender === 'female' ? '1px solid' : 0 }
       >
         Fetch Female User
       </button>
