@@ -1,14 +1,14 @@
 # Site settings
-title: Front Log
-description: "Front Log"
-url: "https://front-log.github.io/"
+title: Log Dev
+description: "Log Dev"
+url: "https://log-dev.github.io/"
 
 # Google Analytics
 google_analytics: G-4E7S0P2MWC
 
 # Author
 author:
-    name: Front Log
+    name: logger
     url:
     email:
 

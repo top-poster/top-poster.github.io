@@ -1,4 +1,4 @@
 User-agent: *
 Allow: 
 
-Sitemap: https://front-log.github.io/sitemap.xml
+Sitemap: https://log-dev.github.io/sitemap.xml
