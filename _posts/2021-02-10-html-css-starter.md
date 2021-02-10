@@ -228,7 +228,8 @@ You can view or change shortcuts under Preferences > Keyboard Shortcut.
 > The key bindings can be retrieved using '''.
 Because closing '" requires accurate search, it is recommended to search without closing '"" as shown in 'cmd + p'
 
-<table><thead><tr><th>Windows shortcut</th><th>macOS shortcut</th><th>Description</th></tr></thead><tbody><tr>< td>“Ctrl + B”</td><td>“Cmd + B”</td><td>Open/close sidebar</td></tr><tr><td>“Ctrl + P” </td><td>“Cmd + P”</td><td>Fast open (search for files or symbols)</td></tr><tr><td>“Ctrl + Shift + P”</ td><td>“Cmd + Shift + P”</td><td>Show all commands (access all commands in editor)</td></tr><tr><td>“Ctrl + F”< /td><td>“Cmd + F”</td><td>Find (search)</td></tr><tr><td>“Ctrl + H”</td><td>“Cmd + Opt(Alt) + F”</td><td>Find(Search)/Replace(Replace)</td></tr><tr><td>“Alt + Up”</td><td> “Alt + Up”</td><td>Move up line</td></tr><tr><td>“Alt + Down”</td><td>“Alt + Down”</td> <td>Move down line</td></tr><tr><td>“Shift + Alt + UpArrow”</td><td>“Shift + Alt + UpArrow”</td><td>Up Copy line</td></tr><tr><td>“Shift + Alt + DownArrow”</td><td>“Shift + Alt + DownArrow”</td><td>Copy line below</td ></tr><tr><td>“Tab”</td><td>“Tab”</td><td>Indentation</td></tr><tr><td>“Shift + Tab”</td><td>“Shift + Tab”</td><td>Outdent</td></tr><tr><td>“Ctrl + PageUp”</td><td>“ Cmd + Shift + ["</td><td>Open previous editor (switch to left pane)</td></tr><tr><td>“Ctrl + PageDow n”</td><td>“Cmd + Shift + ]”</td><td>Open next editor (switch to right pane)</td></tr><tr><td>“Ctrl + \ ”</td><td>“Cmd + \”</td><td>Editor split (backslash)</td></tr><tr><td>“Ctrl + number”</td>< td>“Cmd + number”</td><td><code>`number`</code>Focus on second split editor group</td></tr><tr><td>“Ctrl + W” </td><td>“Cmd + W”</td><td>Close editor</td></tr></tbody></table>
+<table><thead><tr><th>Windows shortcut</th><th>macOS shortcut</th><th>Description</th></tr></thead><tbody><tr><td>“Ctrl + B”</td><td>“Cmd + B”</td><td>Open/close sidebar</td></tr><tr><td>“Ctrl + P” </td><td>“Cmd + P”</td><td>Fast open (search for files or symbols)</td></tr><tr><td>“Ctrl + Shift + P”</td><td>“Cmd + Shift + P”</td><td>Show all commands (access all commands in editor)</td></tr><tr><td>“Ctrl + F”</td><td>“Cmd + F”</td><td>Find (search)</td></tr><tr><td>“Ctrl + H”</td><td>“Cmd + Opt(Alt) + F”</td><td>Find(Search)/Replace(Replace)</td></tr><tr><td>“Alt + Up”</td><td> “Alt + Up”</td><td>Move up line</td></tr><tr><td>“Alt + Down”</td><td>“Alt + Down”</td> <td>Move down line</td></tr><tr><td>“Shift + Alt + UpArrow”</td><td>“Shift + Alt + UpArrow”</td><td>Up Copy line</td></tr><tr><td>“Shift + Alt + DownArrow”</td><td>“Shift + Alt + DownArrow”</td><td>Copy line below</td ></tr><tr><td>“Tab”</td><td>“Tab”</td><td>Indentation</td></tr><tr><td>“Shift + Tab”</td><td>“Shift + Tab”</td><td>Outdent</td></tr><tr><td>“Ctrl + PageUp”</td><td>“ Cmd + Shift + ["</td><td>Open previous editor (switch to left pane)</td></tr><tr><td>“Ctrl + PageDow n”</td><td>“Cmd + Shift + ]”</td><td>Open next editor (switch to right pane)</td></tr><tr><td>“Ctrl + \ ”</td><td>“Cmd + \”</td><td>Editor split (backslash)</td></tr><tr><td>“Ctrl + number”</td><td>“Cmd + number”</td><td><code>`number`</code>Focus on second split editor group</td></tr><tr><td>“Ctrl + W” </td><td>“Cmd + W”</td><td>Close editor</td></tr></tbody></table>
+
  
 
 - Select code to wrap
@@ -259,8 +260,8 @@ You can edit it with tools like illustrations.
 
 <table><thead><tr><th>image type</th><th>advantages</th><th>disadvantages</th></tr></thead><tbody><tr><td
  >Bitmap</td><td>Exquisite and natural expression of various colors</td><td>Scaling up/down when zooming, quality deterioration</td></tr><tr><td>Vector</td>
- td><td>Free to zoom in/out, no change in size</td><td>Difficulty expressing sophisticated images (such as portraits and landscape photos)</td></tr></tbody></
- table>
+td><td>Free to zoom in/out, no change in size</td><td>Difficulty expressing sophisticated images (such as portraits and landscape photos)</td></tr></tbody></table>
+
  
 
 > Sketch 3 can be seen as a vector-based UI production tool rather than editing images.
@@ -322,7 +323,7 @@ Scalable Vector Graphics (SVG) is a format for representing vector graphics base
 
 ## Special Character Terminology Cleanup
 
-<table><thead><tr><th>symbol</th><th>English (pronunciation)</th><th>Korean</th></tr></thead><tbody><tr> <td>`</td><td>Grave</td><td>-</td></tr><tr><td>~</td><td>Tilde< /td><td>Tilde</td></tr><tr><td>!</td><td>Exclamation mark</td><td>Exclamation mark</td>< /tr><tr><td>@</td><td>At (at) sign</td><td>Golf</td></tr><tr><td>#</td>< td>Number (number) sign, Sharp (sharp)</td><td>Sharp, well well</td></tr><tr><td>$</td><td>Dollar (dollar) sign </td><td>Dollar</td></tr><tr><td>%</td><td>Percent(percent) sign</td><td>percent</td></tr ><tr><td>^</td><td>Caret</td><td>-</td></tr><tr><td>&amp;</td><td> Ampersand</td><td>-</td></tr><tr><td>*</td><td>Asterisk</td><td>asterisk</td> td></tr><tr><td>-</td><td>Hyphen, Dash</td><td>Minus</td></tr><tr><td >_</td><td>Underscore, Low dash</td><td>Underscore</td></tr><tr><td>=</td><td >Equals sign</td><td>Icor</td></tr><tr><td>“</td><td>Quotation mark</td><td> Double quotes</td></tr><tr><td>'</td><td>Apostrophe</td><td>Single quotes</td></tr><tr><td >:</td><td>Colon</td><td>dot</td></tr><tr><td>;</t d><td>Semicolon</td><td>Furry dot</td></tr><tr><td>,</td><td>Comma</td>< td>comma</td></tr><tr><td>.</td><td>Period, Dot</td><td>dot, period</td></ tr><tr><td>?</td><td>Question mark</td><td>Question mark</td></tr><tr><td>/</td>< td>Slash</td><td>-</td></tr><tr><td>|</td><td>Vertical bar</td><td>- </td></tr><tr><td>\</td><td>Backslash</td><td>-</td></tr><tr><td>( )</td><td>Parenthesis</td><td>(small) parentheses</td></tr><tr><td>{}</td><td>Brace (Brace)</td><td>Brace</td></tr><tr><td>[]</td><td>Bracket</td><td>Bracket</td> </tr><tr><td>&lt;&gt;</td><td>Angle Bracket</td><td>Angle brackets</td></tr></tbody></ table>
+<table><thead><tr><th>symbol</th><th>English (pronunciation)</th><th>Korean</th></tr></thead><tbody><tr> <td>`</td><td>Grave</td><td>-</td></tr><tr><td>~</td><td>Tilde</td><td>Tilde</td></tr><tr><td>!</td><td>Exclamation mark</td><td>Exclamation mark</td></tr><tr><td>@</td><td>At (at) sign</td><td>Golf</td></tr><tr><td>#</td><td>Number (number) sign, Sharp (sharp)</td><td>Sharp, well well</td></tr><tr><td>$</td><td>Dollar (dollar) sign </td><td>Dollar</td></tr><tr><td>%</td><td>Percent(percent) sign</td><td>percent</td></tr ><tr><td>^</td><td>Caret</td><td>-</td></tr><tr><td>&amp;</td><td> Ampersand</td><td>-</td></tr><tr><td>*</td><td>Asterisk</td><td>asterisk</td>td></tr><tr><td>-</td><td>Hyphen, Dash</td><td>Minus</td></tr><tr><td >_</td><td>Underscore, Low dash</td><td>Underscore</td></tr><tr><td>=</td><td >Equals sign</td><td>Icor</td></tr><tr><td>“</td><td>Quotation mark</td><td> Double quotes</td></tr><tr><td>'</td><td>Apostrophe</td><td>Single quotes</td></tr><tr><td >:</td><td>Colon</td><td>dot</td></tr><tr><td>;</t d><td>Semicolon</td><td>Furry dot</td></tr><tr><td>,</td><td>Comma</td><td>comma</td></tr><tr><td>.</td><td>Period, Dot</td><td>dot, period</td></ tr><tr><td>?</td><td>Question mark</td><td>Question mark</td></tr><tr><td>/</td><td>Slash</td><td>-</td></tr><tr><td>|</td><td>Vertical bar</td><td>- </td></tr><tr><td>\</td><td>Backslash</td><td>-</td></tr><tr><td>( )</td><td>Parenthesis</td><td>(small) parentheses</td></tr><tr><td>{}</td><td>Brace (Brace)</td><td>Brace</td></tr><tr><td>[]</td><td>Bracket</td><td>Bracket</td> </tr><tr><td>&lt;&gt;</td><td>Angle Bracket</td><td>Angle brackets</td></tr></tbody></ table>
  
 
 HTML Entity List
@@ -625,6 +626,7 @@ You do not need to memorize all properties and values immediately because some p
  /td><td><code>`author`</code>, <code>`description`</code>, <code>`keywords`</code>, <code>`viewport`</code>, etc.
  ..</td></tr><tr><td><code>`content`</code></td><td><code>`name`</code> or <code>`http-
  equiv`</code> provide the value of the attribute</td><td></td></tr></tbody></table>
+
  
 
 ### LINK (CSS Recall)
@@ -650,7 +652,8 @@ The empty tag.Empty tag.
 <table><thead><tr><th>property</th><th>meaning</th><th>value</th></tr></thead><tbody><tr><td>
  <code>`rel`</code></td><td>(required) Specify the relationship between the current document and the external document</td><td><code>`stylesheet`</code>, <code
  >`icon`</code> etc..</td></tr><tr><td><code>`href`</code></td><td>Specify the location of the external document</td>
- td><td>path</td></tr></tbody></table>
+td><td>path</td></tr></tbody></table>
+
  
 
 ### STYLE (Create CSS)
@@ -765,6 +768,7 @@ Usually, you apply CSS or JS to the parts that are tied up like this.
 <table><thead><tr><th>property</th><th>meaning</th><th>value</th></tr></thead><tbody><tr><td>
  <code>`src`</code></td><td>(required) URL of the image</td><td>URL</td></tr><tr><td><code>`alt
  `</code></td><td>(required) Specify an alternate text for the image</td><td></td></tr></tbody></table>
+
  
 
 In the table above, the attributes `src`, `alt` are the attributes (required attributes) that must be included when using `img`.

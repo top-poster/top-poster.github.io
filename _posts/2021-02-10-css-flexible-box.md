@@ -113,6 +113,7 @@ The concept of main-axis and cross-axis is discussed later.
  >Set the alignment method of the main-axis</td></tr><tr><td>align-content</td><td>Set the alignment method of the cross-axis (
  2 or more lines)</td></tr><tr><td>align-items</td><td>Set the alignment method of items in the cross-axis (1 line)</td>
  </tr></tbody></table>
+
  
 
 ### display
@@ -124,6 +125,7 @@ The display method of the same element is defined as Flex (`display: flex` and `
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  flex</td><td>Defines a Flex container with Block property</td><td></td></tr><tr><td>inline-flex</td><td> Flex with Inline property
  Define Container</td><td></td></tr></tbody></table>
+
  
 
 The difference between `flex` and `inline-flex` is simple.
@@ -153,8 +155,9 @@ flex-flow: row-reverse wrap;
 
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  flex-direction</td><td>Set the main-axis of items</td><td><code>`row`</code></td></tr><tr><
- td>flex-wrap</td><td>Set multiline wrapping (line breaks) for items</td><td><code>`nowrap`</code></td></tr></tbody
+td>flex-wrap</td><td>Set multiline wrapping (line breaks) for items</td><td><code>`nowrap`</code></td></tr></tbody
  ></table>
+
  
 
 Let`s find out the individual properties.
@@ -166,6 +169,7 @@ Sets the main-axis of the Items.
  row-reverse</td><td>Display items as the opposite axis of <code>`row`</code></td><td></td></tr><tr><td>column<
  /td><td>Display items vertically (top to bottom)</td><td></td></tr><tr><td>column-reverse</td><td>Items <
  code>Display as the opposite axis of `column`</code></td><td></td></tr></tbody></table>
+
  
 
 ```undefined
@@ -194,8 +198,9 @@ Sets the multiline bundle (line break) of the Items.
 
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  nowrap</td><td>Do not wrap all Itmes on multiple lines (single line)</td><td><code>`nowrap`</code></td></tr><tr><
- td>wrap</td><td>Wrap items into multiple lines</td><td></td></tr><tr><td>wrap-reverse</td><td>Items <code
+td>wrap</td><td>Wrap items into multiple lines</td><td></td></tr><tr><td>wrap-reverse</td><td>Items <code
  >Wrap in multiple lines in reverse direction of `wrap`</code></td><td></td></tr></tbody></table>
+
  
 
 ```undefined
@@ -216,9 +221,10 @@ Sets how main-axis is sorted.
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  flex-start</td><td>Arrange Items by flex-start</td><td><code>`flex-start`</code></td></tr><tr>
  <td>flex-end</td><td>Arrange Items by flex-end</td><td></td></tr><tr><td>center</td><
- td>Center Items</td><td></td></tr><tr><td>space-between</td><td>The start Item is aligned to the start point, and the last Item is aligned to the end point.
+td>Center Items</td><td></td></tr><tr><td>space-between</td><td>The start Item is aligned to the start point, and the last Item is aligned to the end point.
  The rest of the Items are evenly arranged between</td><td></td></tr><tr><td>space-around</td><td>Align Items with even margins</td>
- td><td></td></tr></tbody></table>
+td><td></td></tr></tbody></table>
+
  
 
 ```undefined
@@ -242,6 +248,7 @@ Note that the `flex-wrap` property allows items to be used only if they have mul
  /td></tr><tr><td>space-between</td><td>The starting item is aligned to the start point, the last item is aligned to the end point, and the remaining items are evenly aligned between</td><td
  ></td></tr><tr><td>space-around</td><td>Align items including even margins</td><td></td></tr><
  /tbody></table>
+
  
 
 ```undefined
@@ -264,9 +271,9 @@ Therefore, to use `align-items`, the `align-content` property must be set to the
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  stretch</td><td>Stretch Items to fill the container's cross axis</td><td><code>`stretch`</code></td></tr><tr><td>flex-
  start</td><td>Arrange Items by flex-start of each line</td><td></td></tr><tr><td>flex-end</td><
- td>Align Items by flex-end</td><td></td></tr><tr><td>center</td><td>Center Items</td>
- td><td></td></tr><tr><td>baseline</td><td>Sort Items to character baseline</td><td></td></tr></
- tbody></table>
+td>Align Items by flex-end</td><td></td></tr><tr><td>center</td><td>Center Items</td>
+td><td></td></tr><tr><td>baseline</td><td>Sort Items to character baseline</td><td></td></tr></tbody></table>
+
  
 
 ```undefined
@@ -286,6 +293,7 @@ The attributes for Flex Items are as follows:
  Set</td></tr><tr><td>flex-shrink</td><td>Set the reduction width ratio of the Flex Item</td></tr><tr><td>flex-basis
  </td><td>Set default width (before space distribution) of Flex Item</td></tr><tr><td>align-self</td><td>in cross-axis
  Set the item sorting method</td></tr></tbody></table>
+
  
 
 ### order
@@ -298,6 +306,7 @@ Negative numbers are allowed.
 
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  Number</td><td>Set the order of items</td><td><code>`0`</code></td></tr></tbody></table>
+
  
 
 ```undefined
@@ -315,6 +324,7 @@ Short property that sets the width (increase, decrease, default) of the item.
  flex-grow</td><td>Set the percentage of the item's increase width</td><td><code>`0`</code></td></tr><tr><td>flex-
  shrink</td><td>Set item's reduction width ratio</td><td><code>`1`</code></td></tr><tr><td>flex-basis<
  /td><td>Set default width (before space allocation) of items</td><td><code>`auto`</code></td></tr></tbody></table>
+
  
 
 ```undefined
@@ -346,6 +356,7 @@ If the item is not variable width or the value is `0`, it will not work.
 
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  Number</td><td>Set the percentage of the item's increasing width</td><td><code>`0`</code></td></tr></tbody></table>
+
  
 
 ```undefined
@@ -369,6 +380,7 @@ If the item is not variable width or the value is `0`, it will not work.
 
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  Number</td><td>Set item's reduction width percentage</td><td><code>`1`</code></td></tr></tbody></table>
+
  
 
 ```undefined
@@ -406,7 +418,8 @@ However, if you are given a unit value, you cannot set it.
 
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  auto</td><td>Same width as variable item</td><td><code>`auto`</code></td></tr><tr><td>unit</td><
- td>Specify in units such as px, em, cm, etc.</td><td></td></tr></tbody></table>
+td>Specify in units such as px, em, cm, etc.</td><td></td></tr></tbody></table>
+
  
 
 ```undefined
@@ -428,10 +441,9 @@ This property takes precedence over the `align-items` property.
 
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  auto</td><td>Inherits the <code>`align-items`</code> property of the container</td><td><code>`auto`</code></td></tr
- ><tr><td>stretch</td><td>Stretch Item to fill the cross axis of container</td><td></td></tr><tr><td>flex-start</
- td><td>Arrange Items by flex-start</td><td></td></tr><tr><td>flex-end</td><td>Item
+ ><tr><td>stretch</td><td>Stretch Item to fill the cross axis of container</td><td></td></tr><tr><td>flex-start</td><td>Arrange Items by flex-start</td><td></td></tr><tr><td>flex-end</td><td>Item
  Align to the flex-end of each line</td><td></td></tr><tr><td>center</td><td>center the item</td><
- td></td></tr><tr><td>baseline</td><td>Align item to character baseline</td><td></td></tr></tbody><
+td></td></tr><tr><td>baseline</td><td>Align item to character baseline</td><td></td></tr></tbody><
  /table>
  
 
