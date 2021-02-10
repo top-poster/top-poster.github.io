@@ -5,7 +5,7 @@ layout: default
 <div class="catalogue">
     {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-        {% if post.thumbnail %}
+        {% if post.thumbnail != undefined %}
         <div class="catalogue-thumbnail">
             <img src="{{ post.thumbnail }}" />
         </div>
