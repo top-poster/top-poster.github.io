@@ -3,16 +3,14 @@ layout: post
 title: "Create 3D images with PixiJS and Depth map"
 author: "Logger"
 thumbnail: "https://heropy.blog/css/images/vendor_icons/pixi.png"
-tags: 
+tags:
 ---
-
 
 ![image](https://heropy.blog/css/images/vendor_icons/pixi.png)
 
 Use the PixiJS library and Depth map to create a 3D image.
 The image sources used in this post are indicated at the bottom of each image.
-The key code is Red Stapler`s Create 3D Photo from Image JavaScript Tutorial.
-We`ve created and deployed an NPM module (pixi-3d-photo) that makes it easier for you to apply an example:D
+The key code is Red Stapler`s Create 3D Photo from Image JavaScript Tutorial. We`ve created and deployed an NPM module (pixi-3d-photo) that makes it easier for you to apply an example:D
 
 ```bash
 $ npm i pixi-3d-photo
@@ -89,13 +87,9 @@ your_project
 
 ```xml
 <!-- index.html -->
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js"></script>
-
 <div id="pikachu"></div>
-
-<script>
-// Source image path and Depth map path.
+<script>// Source image path and Depth map path.
 let src = 'pikachu.jpg'
 let srcMap = 'pikachu.map.jpg'
 // The size of the image to be output.
@@ -139,7 +133,6 @@ displacementFilter.scale.x = (width / 2 - e.clientX) / 20;
 displacementFilter.scale.y = (height / 2 - e.clientY) / 20;
 };
 </script>
-
 ```
 
 ## Car
@@ -155,7 +148,6 @@ This time, I will make it simpler with the module I distributed.
 
 ```xml
 <div id="car"></div>
-
 ```
 
 ```js
