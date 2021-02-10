@@ -61,7 +61,8 @@ The `tab` key: Displays the specified command or data that starts with the curre
 `.break`: Terminate multi-line expressions.
 `.clear`: Exits a multi-line representation.
 *.save <filename>: Saves the current Node REPL session to a file. For example, `.save log.txt`, `.save session.js`.
-`.load >`: Imports files into the current Node REPL session.
+`.load>
+`: Imports files into the current Node REPL session.
 `.editor`: use editor mode (`ctrl`+`d`: complete editor mode, `ctrl`+`c`: cancel editor mode)
 
 ```bash
@@ -174,7 +175,8 @@ const timer = setInterval(() => {
 sec++;
 console.log(sec);
 
-if (sec > 9) {
+if (sec>
+ 9) {
 clearInterval(timer);
 return;
 }

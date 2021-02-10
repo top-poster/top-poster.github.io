@@ -110,7 +110,8 @@ The concept of main-axis and cross-axis is discussed later.
  Define Flex Container</td></tr><tr><td>flex-flow</td><td><code>`flex-direction`</code> and <code>`flex-wrap`<
  Shorthand property of /code></td></tr><tr><td>flex-direction</td><td>Set main-axis of Flex Items</td></tr>
  <tr><td>flex-wrap</td><td>Set multi-line wrapping (line break) for Flex Items</td></tr><tr><td>justify-content</td><td
- >Set the alignment method of the main-axis</td></tr><tr><td>align-content</td><td>Set the alignment method of the cross-axis (
+>
+Set the alignment method of the main-axis</td></tr><tr><td>align-content</td><td>Set the alignment method of the cross-axis (
  2 or more lines)</td></tr><tr><td>align-items</td><td>Set the alignment method of items in the cross-axis (1 line)</td>
  </tr></tbody></table>
 
@@ -156,7 +157,8 @@ flex-flow: row-reverse wrap;
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  flex-direction</td><td>Set the main-axis of items</td><td><code>`row`</code></td></tr><tr><
 td>flex-wrap</td><td>Set multiline wrapping (line breaks) for items</td><td><code>`nowrap`</code></td></tr></tbody
- ></table>
+>
+</table>
 
  
 
@@ -199,7 +201,8 @@ Sets the multiline bundle (line break) of the Items.
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  nowrap</td><td>Do not wrap all Itmes on multiple lines (single line)</td><td><code>`nowrap`</code></td></tr><tr><
 td>wrap</td><td>Wrap items into multiple lines</td><td></td></tr><tr><td>wrap-reverse</td><td>Items <code
- >Wrap in multiple lines in reverse direction of `wrap`</code></td><td></td></tr></tbody></table>
+>
+Wrap in multiple lines in reverse direction of `wrap`</code></td><td></td></tr></tbody></table>
 
  
 
@@ -246,7 +249,8 @@ Note that the `flex-wrap` property allows items to be used only if they have mul
  start</td><td>Arrange Items by flex-start</td><td></td></tr><tr><td>flex-end</td><td>Items
  Align by flex-end</td><td></td></tr><tr><td>center</td><td>Center items</td><td><
  /td></tr><tr><td>space-between</td><td>The starting item is aligned to the start point, the last item is aligned to the end point, and the remaining items are evenly aligned between</td><td
- ></td></tr><tr><td>space-around</td><td>Align items including even margins</td><td></td></tr><
+>
+</td></tr><tr><td>space-around</td><td>Align items including even margins</td><td></td></tr><
  /tbody></table>
 
  
@@ -441,7 +445,8 @@ This property takes precedence over the `align-items` property.
 
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  auto</td><td>Inherits the <code>`align-items`</code> property of the container</td><td><code>`auto`</code></td></tr
- ><tr><td>stretch</td><td>Stretch Item to fill the cross axis of container</td><td></td></tr><tr><td>flex-start</td><td>Arrange Items by flex-start</td><td></td></tr><tr><td>flex-end</td><td>Item
+>
+<tr><td>stretch</td><td>Stretch Item to fill the cross axis of container</td><td></td></tr><tr><td>flex-start</td><td>Arrange Items by flex-start</td><td></td></tr><tr><td>flex-end</td><td>Item
  Align to the flex-end of each line</td><td></td></tr><tr><td>center</td><td>center the item</td><
 td></td></tr><tr><td>baseline</td><td>Align item to character baseline</td><td></td></tr></tbody><
  /table>

@@ -193,7 +193,8 @@ Almost all menus in the VS Code are changed to Korean.
 Modify the code creation style (beautifully) for code readability.
 I highly recommend it to beginners.
 
-- `Preferences > Keyboard Shortcut` 선택
+- `Preferences>
+ Keyboard Shortcut` 선택
 - Search for `HookieQR.beauty` (not `HookieQR.beautyFile`!)
 - Select `Key Bind`
 - Register your own shortcut
@@ -202,7 +203,8 @@ I highly recommend it to beginners.
 
 Select `Go Live` at the bottom status bar
 Or
-Right-click on the HTML screen > Select `Open with Live Server`
+Right-click on the HTML screen>
+ Select `Open with Live Server`
 
 > Depending on the version of VS Code, it might already be installed.
 
@@ -223,12 +225,14 @@ REST Client
 
 ### A good shortcut to know.
 
-You can view or change shortcuts under Preferences > Keyboard Shortcut.
+You can view or change shortcuts under Preferences>
+ Keyboard Shortcut.
 
 > The key bindings can be retrieved using '''.
 Because closing '" requires accurate search, it is recommended to search without closing '"" as shown in 'cmd + p'
 
-<table><thead><tr><th>Windows shortcut</th><th>macOS shortcut</th><th>Description</th></tr></thead><tbody><tr><td>“Ctrl + B”</td><td>“Cmd + B”</td><td>Open/close sidebar</td></tr><tr><td>“Ctrl + P” </td><td>“Cmd + P”</td><td>Fast open (search for files or symbols)</td></tr><tr><td>“Ctrl + Shift + P”</td><td>“Cmd + Shift + P”</td><td>Show all commands (access all commands in editor)</td></tr><tr><td>“Ctrl + F”</td><td>“Cmd + F”</td><td>Find (search)</td></tr><tr><td>“Ctrl + H”</td><td>“Cmd + Opt(Alt) + F”</td><td>Find(Search)/Replace(Replace)</td></tr><tr><td>“Alt + Up”</td><td> “Alt + Up”</td><td>Move up line</td></tr><tr><td>“Alt + Down”</td><td>“Alt + Down”</td> <td>Move down line</td></tr><tr><td>“Shift + Alt + UpArrow”</td><td>“Shift + Alt + UpArrow”</td><td>Up Copy line</td></tr><tr><td>“Shift + Alt + DownArrow”</td><td>“Shift + Alt + DownArrow”</td><td>Copy line below</td ></tr><tr><td>“Tab”</td><td>“Tab”</td><td>Indentation</td></tr><tr><td>“Shift + Tab”</td><td>“Shift + Tab”</td><td>Outdent</td></tr><tr><td>“Ctrl + PageUp”</td><td>“ Cmd + Shift + ["</td><td>Open previous editor (switch to left pane)</td></tr><tr><td>“Ctrl + PageDow n”</td><td>“Cmd + Shift + ]”</td><td>Open next editor (switch to right pane)</td></tr><tr><td>“Ctrl + \ ”</td><td>“Cmd + \”</td><td>Editor split (backslash)</td></tr><tr><td>“Ctrl + number”</td><td>“Cmd + number”</td><td><code>`number`</code>Focus on second split editor group</td></tr><tr><td>“Ctrl + W” </td><td>“Cmd + W”</td><td>Close editor</td></tr></tbody></table>
+<table><thead><tr><th>Windows shortcut</th><th>macOS shortcut</th><th>Description</th></tr></thead><tbody><tr><td>“Ctrl + B”</td><td>“Cmd + B”</td><td>Open/close sidebar</td></tr><tr><td>“Ctrl + P” </td><td>“Cmd + P”</td><td>Fast open (search for files or symbols)</td></tr><tr><td>“Ctrl + Shift + P”</td><td>“Cmd + Shift + P”</td><td>Show all commands (access all commands in editor)</td></tr><tr><td>“Ctrl + F”</td><td>“Cmd + F”</td><td>Find (search)</td></tr><tr><td>“Ctrl + H”</td><td>“Cmd + Opt(Alt) + F”</td><td>Find(Search)/Replace(Replace)</td></tr><tr><td>“Alt + Up”</td><td> “Alt + Up”</td><td>Move up line</td></tr><tr><td>“Alt + Down”</td><td>“Alt + Down”</td> <td>Move down line</td></tr><tr><td>“Shift + Alt + UpArrow”</td><td>“Shift + Alt + UpArrow”</td><td>Up Copy line</td></tr><tr><td>“Shift + Alt + DownArrow”</td><td>“Shift + Alt + DownArrow”</td><td>Copy line below</td>
+</tr><tr><td>“Tab”</td><td>“Tab”</td><td>Indentation</td></tr><tr><td>“Shift + Tab”</td><td>“Shift + Tab”</td><td>Outdent</td></tr><tr><td>“Ctrl + PageUp”</td><td>“ Cmd + Shift + ["</td><td>Open previous editor (switch to left pane)</td></tr><tr><td>“Ctrl + PageDow n”</td><td>“Cmd + Shift + ]”</td><td>Open next editor (switch to right pane)</td></tr><tr><td>“Ctrl + \ ”</td><td>“Cmd + \”</td><td>Editor split (backslash)</td></tr><tr><td>“Ctrl + number”</td><td>“Cmd + number”</td><td><code>`number`</code>Focus on second split editor group</td></tr><tr><td>“Ctrl + W” </td><td>“Cmd + W”</td><td>Close editor</td></tr></tbody></table>
 
  
 
@@ -259,7 +263,8 @@ You can edit it with tools like illustrations.
 ![image](https://heropy.blog/images/screenshot/html-css-starter/difference_bitmap_vector.jpg)
 
 <table><thead><tr><th>image type</th><th>advantages</th><th>disadvantages</th></tr></thead><tbody><tr><td
- >Bitmap</td><td>Exquisite and natural expression of various colors</td><td>Scaling up/down when zooming, quality deterioration</td></tr><tr><td>Vector</td>
+>
+Bitmap</td><td>Exquisite and natural expression of various colors</td><td>Scaling up/down when zooming, quality deterioration</td></tr><tr><td>Vector</td>
 td><td>Free to zoom in/out, no change in size</td><td>Difficulty expressing sophisticated images (such as portraits and landscape photos)</td></tr></tbody></table>
 
  
@@ -323,7 +328,11 @@ Scalable Vector Graphics (SVG) is a format for representing vector graphics base
 
 ## Special Character Terminology Cleanup
 
-<table><thead><tr><th>symbol</th><th>English (pronunciation)</th><th>Korean</th></tr></thead><tbody><tr> <td>`</td><td>Grave</td><td>-</td></tr><tr><td>~</td><td>Tilde</td><td>Tilde</td></tr><tr><td>!</td><td>Exclamation mark</td><td>Exclamation mark</td></tr><tr><td>@</td><td>At (at) sign</td><td>Golf</td></tr><tr><td>#</td><td>Number (number) sign, Sharp (sharp)</td><td>Sharp, well well</td></tr><tr><td>$</td><td>Dollar (dollar) sign </td><td>Dollar</td></tr><tr><td>%</td><td>Percent(percent) sign</td><td>percent</td></tr ><tr><td>^</td><td>Caret</td><td>-</td></tr><tr><td>&amp;</td><td> Ampersand</td><td>-</td></tr><tr><td>*</td><td>Asterisk</td><td>asterisk</td>td></tr><tr><td>-</td><td>Hyphen, Dash</td><td>Minus</td></tr><tr><td >_</td><td>Underscore, Low dash</td><td>Underscore</td></tr><tr><td>=</td><td >Equals sign</td><td>Icor</td></tr><tr><td>“</td><td>Quotation mark</td><td> Double quotes</td></tr><tr><td>'</td><td>Apostrophe</td><td>Single quotes</td></tr><tr><td >:</td><td>Colon</td><td>dot</td></tr><tr><td>;</t d><td>Semicolon</td><td>Furry dot</td></tr><tr><td>,</td><td>Comma</td><td>comma</td></tr><tr><td>.</td><td>Period, Dot</td><td>dot, period</td></ tr><tr><td>?</td><td>Question mark</td><td>Question mark</td></tr><tr><td>/</td><td>Slash</td><td>-</td></tr><tr><td>|</td><td>Vertical bar</td><td>- </td></tr><tr><td>\</td><td>Backslash</td><td>-</td></tr><tr><td>( )</td><td>Parenthesis</td><td>(small) parentheses</td></tr><tr><td>{}</td><td>Brace (Brace)</td><td>Brace</td></tr><tr><td>[]</td><td>Bracket</td><td>Bracket</td> </tr><tr><td>&lt;&gt;</td><td>Angle Bracket</td><td>Angle brackets</td></tr></tbody></ table>
+<table><thead><tr><th>symbol</th><th>English (pronunciation)</th><th>Korean</th></tr></thead><tbody><tr> <td>`</td><td>Grave</td><td>-</td></tr><tr><td>~</td><td>Tilde</td><td>Tilde</td></tr><tr><td>!</td><td>Exclamation mark</td><td>Exclamation mark</td></tr><tr><td>@</td><td>At (at) sign</td><td>Golf</td></tr><tr><td>#</td><td>Number (number) sign, Sharp (sharp)</td><td>Sharp, well well</td></tr><tr><td>$</td><td>Dollar (dollar) sign </td><td>Dollar</td></tr><tr><td>%</td><td>Percent(percent) sign</td><td>percent</td></tr>
+<tr><td>^</td><td>Caret</td><td>-</td></tr><tr><td>&amp;</td><td> Ampersand</td><td>-</td></tr><tr><td>*</td><td>Asterisk</td><td>asterisk</td>td></tr><tr><td>-</td><td>Hyphen, Dash</td><td>Minus</td></tr><tr><td>
+_</td><td>Underscore, Low dash</td><td>Underscore</td></tr><tr><td>=</td><td>
+Equals sign</td><td>Icor</td></tr><tr><td>“</td><td>Quotation mark</td><td> Double quotes</td></tr><tr><td>'</td><td>Apostrophe</td><td>Single quotes</td></tr><tr><td>
+:</td><td>Colon</td><td>dot</td></tr><tr><td>;</t d><td>Semicolon</td><td>Furry dot</td></tr><tr><td>,</td><td>Comma</td><td>comma</td></tr><tr><td>.</td><td>Period, Dot</td><td>dot, period</td></ tr><tr><td>?</td><td>Question mark</td><td>Question mark</td></tr><tr><td>/</td><td>Slash</td><td>-</td></tr><tr><td>|</td><td>Vertical bar</td><td>- </td></tr><tr><td>\</td><td>Backslash</td><td>-</td></tr><tr><td>( )</td><td>Parenthesis</td><td>(small) parentheses</td></tr><tr><td>{}</td><td>Brace (Brace)</td><td>Brace</td></tr><tr><td>[]</td><td>Bracket</td><td>Bracket</td> </tr><tr><td>&lt;&gt;</td><td>Angle Bracket</td><td>Angle brackets</td></tr></tbody></ table>
  
 
 HTML Entity List
@@ -651,7 +660,8 @@ The empty tag.Empty tag.
 
 <table><thead><tr><th>property</th><th>meaning</th><th>value</th></tr></thead><tbody><tr><td>
  <code>`rel`</code></td><td>(required) Specify the relationship between the current document and the external document</td><td><code>`stylesheet`</code>, <code
- >`icon`</code> etc..</td></tr><tr><td><code>`href`</code></td><td>Specify the location of the external document</td>
+>
+`icon`</code> etc..</td></tr><tr><td><code>`href`</code></td><td>Specify the location of the external document</td>
 td><td>path</td></tr></tbody></table>
 
  
@@ -808,7 +818,9 @@ In order not to increase the difficulty level in the introductory stage (so that
 
 Create a project directory (folder) named `example1` in a familiar place, such as the desktop. (Please feel free to name it however you want.)
 Now run the VS Code and select `File/Open` to locate and open the directory you created.
-Create a file called `index.html` in it (set the name and extension of `file/new` > `Save` > name)
+Create a file called `index.html` in it (set the name and extension of `file/new`>
+ `Save`>
+ name)
 Compare the following code with the above structure and code it.
 
 ```xml
@@ -839,7 +851,8 @@ Compare the following code with the above structure and code it.
 
 ```
 
-Currently, if you print this structure to a browser, only four TEXTs in one image and menu appear as follows (right-click > `Open with Live Server` on the HTML screen).
+Currently, if you print this structure to a browser, only four TEXTs in one image and menu appear as follows (right-click>
+ `Open with Live Server` on the HTML screen).
 
 > If you do not have the 'Open with Live Server' menu, you must install the Live Server with the VS Code extension.
 
@@ -1177,7 +1190,8 @@ element background: red;
 ## CSS Example
 
 Let`s apply CSS following the example we wrote at the end of HTML.
-Create an additional directory named `css` inside the `example1` directory (right-click > select a new folder in the Sidebar area)
+Create an additional directory named `css` inside the `example1` directory (right-click>
+ select a new folder in the Sidebar area)
 Create the `main.css` file inside the `css` directory you created.
 
 The following are the directories and file structures in this example:

@@ -189,7 +189,8 @@ In particular, it is recommended that `<table>` be initialized as follows:
 
 <table><thead><tr><th>property</th><th>value</th><th>meaning</th></tr></thead><tbody><tr><td>
  border</td><td><code>`1`</code><br><code>`0`</code></td><td>Presence of line</td></tr><tr
- ><td>cellpadding</td><td>Pixels</td><td>Inner margin of cell (td)</td></tr><tr><td>cellspacing</td><td>Pixels
+>
+<td>cellpadding</td><td>Pixels</td><td>Inner margin of cell (td)</td></tr><tr><td>cellspacing</td><td>Pixels
  </td><td>Width between cells</td></tr><tr><td>width</td><td>Pixels<br><code>`%`</code></
 td><td>Width of table</td></tr></tbody></table>
 

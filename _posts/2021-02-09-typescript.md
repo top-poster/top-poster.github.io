@@ -24,19 +24,23 @@ Type Aliases
 
 - I added the following parts.
 Unknown Type £Type Default/Type Declaration £
-Intersection £Type Base /Type Declaration >
+Intersection £Type Base /Type Declaration>
+
 Function type <
 Class Type <
-Interface Extensions >
+Interface Extensions>
+
 Function
 This <Function>
 Explicit this <function>
 Overloads <Function>
 - Unknown Type £Type Default/Type Declaration £
-- Intersection £Type Base /Type Declaration >
+- Intersection £Type Base /Type Declaration>
+
 - Function type <
 - Class Type <
-- Interface Extensions >
+- Interface Extensions>
+
 - Function
 - This <Function>
 - Explicit this <function>
@@ -77,8 +81,10 @@ Omit <TS Utility Type>
 EXClude TS TS Utility Type
 Extract <TS Utility Type>
 NonNullible <TS Utility Type>
-Parameters > TS Utility Type
-ConstructorParameters >
+Parameters>
+ TS Utility Type
+ConstructorParameters>
+
 ReturnType <TS Utility Type>
 InstanceType <TS Utility Type>
 ThisParameterType <TS Utility Type>
@@ -96,8 +102,10 @@ ThisType TS TS Utility Type
 - EXClude TS TS Utility Type
 - Extract <TS Utility Type>
 - NonNullible <TS Utility Type>
-- Parameters > TS Utility Type
-- ConstructorParameters >
+- Parameters>
+ TS Utility Type
+- ConstructorParameters>
+
 - ReturnType <TS Utility Type>
 - InstanceType <TS Utility Type>
 - ThisParameterType <TS Utility Type>
@@ -1854,7 +1862,8 @@ As a result, `MyType<number>` can return `number` and variable `a` can assign `1
 This time, let`s take a look at a more complex but useful example.
 `ReturnType` returns what type the function returns.
 
-> Please refer to the 'TS Utility Type > ReturnType' part.
+> Please refer to the 'TS Utility Type>
+ ReturnType' part.
 
 ```undefined
 type ReturnType<T extends (...args: any) => any> = T extends (...args: any) => infer R ? R : any;
@@ -2161,8 +2170,10 @@ Let`s understand the difference between each access controller.
 
 <table><thead><tr><th>Access Controller</th><th>Meaning</th><th>Scope</th></tr></thead><tbody><tr><
 td><code>`public`</code></td><td>Freely accessible from anywhere (optional)</td><td>Properties, methods</td></tr><tr><td
- ><code>`protected`</code></td><td>Available within me and derived descendant classes</td><td>Properties, methods</td></tr><tr><td
- ><code>`private`</code></td><td>Available only in my class</td><td>Properties, methods</td></tr></tbody></table>
+>
+<code>`protected`</code></td><td>Available within me and derived descendant classes</td><td>Properties, methods</td></tr><tr><td
+>
+<code>`private`</code></td><td>Available only in my class</td><td>Properties, methods</td></tr></tbody></table>
 
  
 
@@ -2847,7 +2858,12 @@ See Utility Types for more information.
 > Type variable 'T' is an abbreviation for Type, U' is another type, and 'K' is an abbreviation for Key.
 For better understanding, type variables are 'TYPE' or 'TYPE1', 'U' is 'TYPE2' and 'K' is 'KEY'.
 
-<table><thead><tr><th>Utility name</th><th>Description (representative type)</th><th>Type variable</th></tr></thead><tbody> <tr><td><code>`Partial`</code></td><td> Return a new type by selectively changing all properties of <code>`TYPE`</code> (interface)</td ><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`Required`</code></td><td><code > Return a new type with all attributes of `TYPE`</code> changed to required (interface)</td><td><code>`&lt;TYPE&gt;`</code></td></tr> <tr><td><code>`Readonly`</code></td><td> Return a new type with all properties of <code>`TYPE`</code> changed to read-only (interface)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`Record`</code></td><td>< code>Returns a new type specifying `KEY`</code> as an attribute and <code>`TYPE`</code> as the type of the attribute value (interface)</td><td><code>`&lt ;KEY, TYPE&gt;`</code></td></tr><tr><td><code>`Pick`</code></td><td><code>`TYPE`</code > Return a new type of property selected from <code>`KEY`</code> (interface)</td><td><code>`&lt;TYPE, KEY&gt;`</code></td></ tr><tr><td><code>`Omit`</code></td></td> Omit attributes from <td><code>`TYPE`</code> to <code>`KEY`</code> And return the selected new type (interface)</td><td><code>`&lt;TYPE, KEY&gt;`</code></td></tr><tr ><td><code>`Exclude`</code></td><td><code>`TYPE1`</code> returns new type except <code>`TYPE2`</code> (union) </td><td><code>`&lt;TYPE1, TYPE2&gt;`</code></td></tr><tr><td><code>`Extract`</code></td> <td>Return a new type extracted from <code>`TYPE2`</code> from <code>`TYPE1`</code> (union)</td><td><code>`&lt;TYPE1, TYPE2&gt;` </code></td></tr><tr><td><code>`NonNullable`</code></td><td><code><code> in `TYPE`</code> Return new type except null`</code> and <code>`undefined`</code> (union)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`Parameters`</code></td><td><code> Return the parameter type of `TYPE`</code> as a new tuple type (function, Tuple)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`ConstructorParameters`</code></td> Return parameter type of <td><code>`TYPE`</code> as new tuple type (class, tuple)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`ReturnType`</code></td><td> Return the return type of <code>`TYPE`</code> as a new type (function) </td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`InstanceType`</code></td><td ><code>Return the instance type of `TYPE`</code> (class)</t d><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`ThisParameterType`</code></td><td>< code>Explicit <code>`this`</code> of `TYPE`</code> Returns parameter type as a new type (function)</td><td><code>`&lt;TYPE&gt;`< Explicit <code> of /code></td></tr><tr><td><code>`OmitThisParameter`</code></td><td><code>`TYPE`</code> `this`</code> Return a new type with parameters removed (function)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`ThisType`</code></td> Specify the <code>`this`</code> context of <td><code>`TYPE`</code>, no separate return ! (Interface)</td><td><code>`&lt;TYPE&gt;`</code></td></tr></tbody></table>
+<table><thead><tr><th>Utility name</th><th>Description (representative type)</th><th>Type variable</th></tr></thead><tbody> <tr><td><code>`Partial`</code></td><td> Return a new type by selectively changing all properties of <code>`TYPE`</code> (interface)</td>
+<td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`Required`</code></td><td><code>
+ Return a new type with all attributes of `TYPE`</code> changed to required (interface)</td><td><code>`&lt;TYPE&gt;`</code></td></tr> <tr><td><code>`Readonly`</code></td><td> Return a new type with all properties of <code>`TYPE`</code> changed to read-only (interface)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`Record`</code></td><td>< code>Returns a new type specifying `KEY`</code> as an attribute and <code>`TYPE`</code> as the type of the attribute value (interface)</td><td><code>`&lt ;KEY, TYPE&gt;`</code></td></tr><tr><td><code>`Pick`</code></td><td><code>`TYPE`</code>
+ Return a new type of property selected from <code>`KEY`</code> (interface)</td><td><code>`&lt;TYPE, KEY&gt;`</code></td></ tr><tr><td><code>`Omit`</code></td></td> Omit attributes from <td><code>`TYPE`</code> to <code>`KEY`</code> And return the selected new type (interface)</td><td><code>`&lt;TYPE, KEY&gt;`</code></td></tr><tr>
+<td><code>`Exclude`</code></td><td><code>`TYPE1`</code> returns new type except <code>`TYPE2`</code> (union) </td><td><code>`&lt;TYPE1, TYPE2&gt;`</code></td></tr><tr><td><code>`Extract`</code></td> <td>Return a new type extracted from <code>`TYPE2`</code> from <code>`TYPE1`</code> (union)</td><td><code>`&lt;TYPE1, TYPE2&gt;` </code></td></tr><tr><td><code>`NonNullable`</code></td><td><code><code> in `TYPE`</code> Return new type except null`</code> and <code>`undefined`</code> (union)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`Parameters`</code></td><td><code> Return the parameter type of `TYPE`</code> as a new tuple type (function, Tuple)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`ConstructorParameters`</code></td> Return parameter type of <td><code>`TYPE`</code> as new tuple type (class, tuple)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`ReturnType`</code></td><td> Return the return type of <code>`TYPE`</code> as a new type (function) </td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`InstanceType`</code></td><td>
+<code>Return the instance type of `TYPE`</code> (class)</t d><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`ThisParameterType`</code></td><td>< code>Explicit <code>`this`</code> of `TYPE`</code> Returns parameter type as a new type (function)</td><td><code>`&lt;TYPE&gt;`< Explicit <code> of /code></td></tr><tr><td><code>`OmitThisParameter`</code></td><td><code>`TYPE`</code> `this`</code> Return a new type with parameters removed (function)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`ThisType`</code></td> Specify the <code>`this`</code> context of <td><code>`TYPE`</code>, no separate return ! (Interface)</td><td><code>`&lt;TYPE&gt;`</code></td></tr></tbody></table>
 
  
 
@@ -2925,7 +2941,8 @@ age: number
 
 Returns a new type with all attributes of the `TYPE` changed to `readonly`
 
-> See the 'Interface > Read-only Properties' part.
+> See the 'Interface>
+ Read-only Properties' part.
 
 ```undefined
 Readonly<TYPE>
@@ -3216,7 +3233,9 @@ const neo: InstanceType<typeof User> = new User('Neo');
 Returns the explicit `this` parameter type of function `TYPE` to a new type.
 Returns an unknown type if the function `TYPE` does not have an explicit `this` parameter.
 
-> Refer to the 'Function > This > Explicit This' part.
+> Refer to the 'Function>
+ This>
+ Explicit This' part.
 
 ```undefined
 ThisParameterType<TYPE>

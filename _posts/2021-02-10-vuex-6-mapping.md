@@ -148,7 +148,8 @@ getters: {
 mutations: {
 discountPrice(state, payload) {
 state.fruits.forEach(fruit => {
-fruit.price *= (100 - payload.rate) / 100; // discountRate >> rate
+fruit.price *= (100 - payload.rate) / 100; // discountRate>
+> rate
 });
 }
 },
