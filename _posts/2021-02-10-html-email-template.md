@@ -116,9 +116,11 @@ It is not recommended to exceed the practical upper limit of 800px.
 </table>
 
 
+
 </td>
 </tr>
 </table>
+
 
 </body>
 
@@ -185,6 +187,7 @@ In particular, it is recommended that `<table>` be initialized as follows:
 <table border="0" cellpadding="0" cellspacing="0" width="100%"></table>
 
 
+
 ```
 
 <table><thead><tr><th>property</th><th>value</th><th>meaning</th></tr></thead><tbody><tr><td>
@@ -193,6 +196,7 @@ In particular, it is recommended that `<table>` be initialized as follows:
 <td>cellpadding</td><td>Pixels</td><td>Inner margin of cell (td)</td></tr><tr><td>cellspacing</td><td>Pixels
  </td><td>Width between cells</td></tr><tr><td>width</td><td>Pixels<br><code>`%`</code></
 td><td>Width of table</td></tr></tbody></table>
+
 
  
 
@@ -204,6 +208,7 @@ td><td><code>`top`</code><br><code>`middle`</code><br><code>`bottom`</code><br><
  Color(ex&gt; <code>`#ffffff`</code>)</td></tr><tr><td>width</td><td>Pixels<br><code>`%`</
  code></td><td>Horizontal width of cell</td></tr><tr><td>height</td><td>Pixels<br><code>`%`</code><
  /td><td>cell's vertical width</td></tr></tbody></table>
+
 
  
 
@@ -236,6 +241,7 @@ Therefore, you should avoid merging (Merge) cells as follows:
 </table>
 
 
+
 ```
 
 You can nest tables to create the same effect as merged.
@@ -255,6 +261,7 @@ It`s more complex, but it`s safely rendered on almost every email client.
 </tr>
 </table>
 
+
 </td>
 </tr>
 <tr>
@@ -266,6 +273,7 @@ It`s more complex, but it`s safely rendered on almost every email client.
 </tr>
 </table>
 
+
 </td>
 </tr>
 <tr>
@@ -276,9 +284,11 @@ It`s more complex, but it`s safely rendered on almost every email client.
 </tr>
 </table>
 
+
 </td>
 </tr>
 </table>
+
 
 
 ```
@@ -475,6 +485,7 @@ GREATER THAN EQUAL OUTLOOK 9 or INTERNET EXPLORER
 - Outlook 2013: Version 15
 
 <table><thead><tr><th style="text-align:center">symbol</th><th style="text-align:center">meaning</th><th style="text- align:center">example</th><th style="text-align:center">example interpretation</th></tr></thead><tbody><tr><td style="text-align :center"><code>`!`</code></td><td style="text-align:center">negative<br>(not)</td><td style="text-align: center"><code>`&lt;!--[if !IE]&gt;&lt;![endif]--&gt;`</code></td><td style="text-align:center"> Without IE browser</td></tr><tr><td style="text-align:center"><code>`lt`</code></td><td style="text-align :center">Small, less than<br>(less than)</td><td style="text-align:center"><code>`&lt;!--[if lt IE 9]&gt;&lt;! [endif]--&gt;`</code></td><td style="text-align:center">Under IE9</td></tr><tr><td style="text-align: center"><code>`lte`</code></td><td style="text-align:center">Less than or equal to, less than <br>(less than equal)</td><td style= "text-align:center"><code>`&lt;!--[if lte IE 8]&gt;&lt;![endif]--&gt;`</code></td><td style="text -align:center">IE8 or less</td></tr><tr><td style="text-align:center"><code>`gt`</code></td><td st yle="text-align:center">greater than <br>(greater than)</td><td style="text-align:center"><code>`&lt;!--[if gt IE 6 ]&gt;&lt;![endif]--&gt;`</code></td><td style="text-align:center">IE6 exceeded</td></tr><tr><td style ="text-align:center"><code>`gte`</code></td><td style="text-align:center">greater than equal<br>(greater than equal)</td><td style="text-align:center"><code>`&lt;!--[if gte IE 7]&gt;&lt;![endif]--&gt;`</code></td> <td style="text-align:center">IE7 or later</td></tr><tr><td style="text-align:center"><code>`&amp;`</code></td><td style="text-align:center">and<br>(and)</td><td style="text-align:center"><code>`&lt;!--[if (gt IE 6) &amp; (lte IE 9)]&gt;&lt;![endif]--&gt;`</code></td><td style="text-align:center">Over IE6 ~ Below IE9</td></ tr><tr><td style="text-align:center"><code>`|`</code></td><td style="text-align:center"> or <br>(or) </td><td style="text-align:center">-</td><td style="text-align:center">-</td></tr></tbody></table>
+
 
  
 

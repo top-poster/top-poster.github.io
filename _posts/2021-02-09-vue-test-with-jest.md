@@ -188,6 +188,7 @@ td>Compile the Vue file into JavaScript that Jest can execute.</td></tr><tr><td>
  <a href="https://github.com/facebook/jest/issues/6913#issuecomment-417637086" target="_blank" rel="noopener">I have a related issue</a>.</td><
  /tr></tbody></table>
 
+
  
 
 With the relatively modern NuxtJS or Vue CLI, there are already `@babel/core` and `@babel/preset-env` inside.
@@ -197,6 +198,7 @@ Check your project to decide whether to install additional modules on the follow
  <td>This is version 7 of Babel.</td></tr><tr><td>@babel/preset-env</td><td>Specifies the support specification for Babel.</td></tr
 >
 </tbody></table>
+
 
  
 
@@ -489,6 +491,7 @@ However, if you want to use an older version of Jest or a newer version of jsdom
 <table><thead><tr><th>module</th><th>description</th></tr></thead><tbody><tr><td>jest-environment-jsdom-sixteen<
  /td><td>Specify jsdom version 16.</td></tr></tbody></table>
 
+
  
 
 > The latest version of jsdom requires Node.js v10 or later.
@@ -609,6 +612,7 @@ Percent (%) is the percentage of code executed (called) among all codes.
  <tr><td>Functions(Funcs)</td><td>Verify each function call</td></tr><tr><td>Lines</td><td>Verify the execution of each line
  (Similar to Statements)</td></tr><tr><td>Uncovered Line</td><td>Show lines of code that were not executed by testing</td></tr></tbody>
  </table>
+
 
  
 
@@ -939,6 +943,7 @@ Common
  </td><td><code>`.toStrictEqual(value)`</code></td><td>Strict deep equality comparison with received value</td><td><code>`{
  a: undefined} !== {}`</code></td></tr></tbody></table>
 
+
  
 
 Data type
@@ -950,12 +955,14 @@ Check if the received value is <a href="https://developer.mozilla.org/en/docs/Gl
 <a href="https://jestjs.io/docs/en/expect#tobegreaterthannumber--bigint" target="_blank" rel="noopener">📎</a></td><td><code>
 `.toBeGreaterThan(number)`</code></td><td><code>` Received value &gt; check if number`</code></td><td></td></tr><tr><td><a href="https://jestjs.io/docs/en/expect#tobegreaterthanorequalnumber- -bigint" target="_blank" rel="noopener">📎</a></td><td><code>`.toBeGreaterThanOrEqual(number)`</code></td><td><code> `Check if the received value &gt;= number`</code></td><td></td></tr><tr><td><a href="https://jestjs.io/docs/ en/expect#tobelessthannumber--bigint" target="_blank" rel="noopener">📎</a></td><td><code>`.toBeLessThan(number)`</code></td> <td><code>` received value &lt; check if number`</code></td><td></td></tr><tr><td><a href="https://jestjs.io/docs/en/expect#tobelessthanorequalnumber- -bigint" target="_blank" rel="noopener">📎</a></td><td><code>`.toBeLessThanOrEqual(number)`</code></td><td><code> `Check if the received value &lt;= number`</code></td><td></td></tr><tr><td><a href="https://jestjs.io/docs/ en/expect#tobeclosetonumber-numdigits" target="_blank" rel="noopener">📎</a></td><td><code>`.toBeCloseTo(number, digit?)`</code></td><td>Compare Received Value with Floating Point</td><td></td></tr><tr><td><a href="https://jestjs.io/docs/en/expect #tocontainitem" target="_blank" rel="noopener">📎</a></td><td><code>`.toContain(element)`</code></td><td> Make sure the element contains</td><td>Primitives</td></tr><tr><td><a href="https://jestjs.io/docs/en/expect #tocontainequalitem" target="_blank" rel="noopener">📎</a></td><td><code>`.toContainEqual(element)`</code></td><td> Deep check to see if the element is contained</td><td><code>`object`</code>, <code>`Array&lt;object&gt;`</code></td></tr><tr><td><a href="https://jestjs.io/docs/en/expect#toma tchregexporstring" target="_blank" rel="noopener">📎</a></td><td><code>`.toMatch(Regular expression | String)`</code></td><td>Check if the received value matches the regular expression or contains a string</td><td></td></tr><tr><td><a href ="https://jestjs.io/docs/en/expect#tomatchobjectobject" target="_blank" rel="noopener">📎</a></td><td><code>`.toMatchObject(object) `</code></td><td>Check if the object is a subset of the values received</td><td><code>`object`</code>, <code>`Array&lt;object&gt;`</ code></td></tr></tbody></table>
 
+
  
 
 Snapshots and Exceptions
 
 <table><thead><tr><th></th><th>Matcher</th><th>Description</th><th>Remarks</th></tr></thead><tbody>
 <tr><td><a href="https://jestjs.io/docs/en/expect#tomatchsnapshotpropertymatchers-hint" target="_blank" rel="noopener">📎</a></td> <td><code>`.toMatchSnapshot()`</code></td><td>Creates or compares a snapshot of the received value</td><td></td></tr><tr> <td><a href="https://jestjs.io/docs/en/expect#tomatchinlinesnapshotpropertymatchers-inlinesnapshot" target="_blank" rel="noopener">📎</a></td><td>< code>`.toMatchInlineSnapshot(Inline Snapshot)`</code></td><td>Create or compare an inline snapshot of the received value</td><td><a href="https://developer. mozilla.org/en/docs/Web/JavaScript/Reference/Template_literals" target="_blank" rel="noopener">template literal</a> snapshot</td></tr><tr><td>< a href="https://jestjs.io/docs/en/expect#tothrowerrormatchingsnapshothint" target="_blank" rel="noopener">📎</a></td><td><code>`.toThrowErrorMatchingSnapshot( )`</code></td><td>Creates or compares error snapshot when the received value (function) is called</td><td></td></tr><tr><td> <a href="https://jestjs.io/docs/en/expect#tothrowerrormatchinginlinesnapshoti nlinesnapshot" target="_blank" rel="noopener">📎</a></td><td><code>`.toThrowErrorMatchingInlineSnapshot()`</code></td><td>Received value (function) Create or compare error inline snapshots when is called</td><td><a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Template_literals" target="_blank "rel="noopener">template literal</a> snapshot</td></tr><tr><td><a href="https://jestjs.io/docs/en/expect#tothrowerror" target="_blank" rel="noopener">📎</a></td><td><code>`.toThrow(error?)`</code></td><td>Received value (function) Check if an error occurs when is called</td><td>The received value is wrapped with a function<br><code>`expect(() =&gt; errFn(1, 2))`</code></td></tr></tbody></table>
+
 
  
 
@@ -969,6 +976,7 @@ toHave
 <td><code>`.toHaveBeenLastCalledWith(argument1, argument2, ...)`</code></td><td>Check whether the last call of the received value (function) was called with the corresponding argument</td><td></td></tr><tr><td><a href="https: //jestjs.io/docs/en/expect#tohavebeennthcalledwithnthcall-arg1-arg2-" target="_blank" rel="noopener">📎</a></td><td><code>`.toHaveBeenNthCalledWith(n Th, Argument 1, Argument 2, ...)`</code></td><td>Check whether the nth call of the received value (function) was called with the corresponding argument</td><td></td></tr><tr><td><a href="https://jestjs.io/docs/en/expect#tohavereturned" target="_blank" rel="noopener">📎</a></td><td><code>`.toHaveReturned()`</code></td><td>Check that the received value (function) returns without error after calling</td><td><code>
 `undefined`</code> Include returns</td></tr><tr><td><a href="https://jestjs.io/docs/en/expect#tohavereturnedtimesnumber" target="_blank "rel="noopener">📎</a></td><td><code>`.toHaveReturnedTimes(number)`</code></td><td>The received value (function) is called without error. Check the number of times to return a value</td><td><code>`undefined`</code> Also includes return</td></tr><tr><td><a href="https:// jestjs.io/docs/en/expect#tohavereturnedwithvalue" target="_blank" rel="noopener">📎</a></td><td><code>`.toHaveReturnedWith(return value)`</code> </td><td>Compare whether there is the same value among the values returned by all calls to the received value (function)</td><td></td></tr><tr><td><a href= "https://jestjs.io/docs/en/expec t#tohavelastreturnedwithvalue" target="_blank" rel="noopener">📎</a></td><td><code>`.toHaveLastReturnedWith(return value)`</code></td><td> received Compare with the value returned by the last call of the value (function)</td><td></td></tr><tr><td><a href="https://jestjs.io/docs/en /expect#tohaventhreturnedwithnthcall-value" target="_blank" rel="noopener">📎</a></td><td><code>`.toHaveNthReturnedWith(nth, return)`</code></td><td>Compare the value returned by the nth call of the received value (function)</td><td></td></tr><tr><td><a href="https:// jestjs.io/docs/en/expect#tohavelengthnumber" target="_blank" rel="noopener">📎</a></td><td><code>`.toHaveLength(number)`</code></td><td>Compare the received value with the <code>`.length`</code> attribute value</td><td></td></tr><tr><td><a href=" https://jestjs.io/docs/en/expect#tohavepropertykeypath-value" target="_blank" rel="noopener">📎</a></td><td><code>`.toHaveProperty(property path) , Value?)`</code></td><td>Check whether the property path exists in the received value or the corresponding value exists in the property path</td><td></td></tr></tbody>
 </table>
+
 
  
 
@@ -1581,6 +1589,7 @@ When using `window`</code> or DOM-Events, specify the element selector to be rep
 </td><td>Object</td><td></td></tr><tr><td><a href="https://vue-test-utils.vuejs.org /api/options.html#propsdata" target="_blank" rel="noopener">📎</a></td><td><code>`propsData`</code></td><td>Component Specifies the props to be passed when the is mounted</td><td>Object</td><td></td></tr><tr><td><a href="https://vue-test- utils.vuejs.org/api/options.html#listeners" target="_blank" rel="noopener">
 📎</a></td><td><code>`listeners`</code></td><td><a href="https://kr.vuejs.org/v2 received from parent component /api/index.html#vm-listeners" target="_blank" rel="noopener"><code>specify `$listeners`</code> object</a></td><td>Object</td><td></td></tr><tr><td><a href="https://vue-test-utils.vuejs.org/api/options.html#parentcomponent" target="_blank "rel="noopener">📎</a></td><td><code>`parentComponent`</code></td><td>Specify parent component</td><td>Object</td><td></td></tr><tr><td><a href="https://vue-test-utils.vuejs.org/api/options.html#provide" target="_blank "rel="noopener">📎</a></td><td><code>`provide`</code></td><td><a href="https://vuejs.org/v2 /api/#provide-inject" target="_blank" rel="noopener">Specify <code>`provide`</code> object</a> to be used in <code>`inject`</code></td><td>Object</td><td></td></tr></tbody></table>
 
+
  
 
 ### createLocalVue
@@ -1686,6 +1695,7 @@ Some documents may be mixed.
  Objects that return only values</td></tr><tr><td>Fake</td><td>Objects that actually work but are not suitable for product</td></tr><tr>
  <td>Mock</td><td>Object that actually works but returns only prepared values</td></tr><tr><td>Spy</td><td>calls, etc.
  Object that monitors various situations by recording some information</td></tr></tbody></table>
+
 
  
 
@@ -1976,6 +1986,7 @@ You can also see familiar methods from above.
 ) Initialize an array</td></tr><tr><td><a href="https://jestjs.io/docs/en/mock-function-api#mockfnmockreset" target="_blank" rel ="noopener">📎</a></td><td><code>`.mockReset()`</code></td><td>Reset all state of mock function</td></ tr><tr><td><a href="https://jestjs.io/docs/en/mock-function-api#mockfnmockrestore" target="_blank" rel="noopener">📎</a></td><td><code>`.mockRestore()`</code></td><td>Initialize all state of the mock function and restore it to the actual function<br>(<code>`jest.spyOn( )`</code> only implementation can be restored)</td></tr><tr><td><a href="https://jestjs.io/docs/en/mock-function-api #mockfnmockreturnthis" target="_blank" rel="noopener">📎</a></td><td><code>`.mockReturnThis()`</code></td><td> code>return `this`</code></td></tr><tr><td><a href="https://jestjs.io/doc s/en/mock-function-api#mockfnmockimplementationfn" target="_blank" rel="noopener">📎</a></td><td><code>`.mockImplementation(implementation)`</code></td><td>write the implementation part of the mock function</td></tr><tr><td><a href="https://jestjs.io/docs/en/mock-function-api#mockfnmockreturnvaluevalue "target="_blank" rel="noopener">📎</a></td><td><code>`.mockReturnValue(value)`</code></td><td>< code>Return `value`</code></td></tr><tr><td><a href="https://jestjs.io/docs/en/mock-function-api#mockfnmockresolvedvaluevalue" target="_blank" rel="noopener">📎</a></td><td><code>`.mockResolvedValue(value)`</code></td><td>Asynchronous mock function implemented( Resolved), return the specified <code>`value`</code></td></tr><tr><td><a href="https://jestjs.io/docs/en/mock-function -api#mockfnmockrejectedvaluevalue" target="_blank" rel="noopener">📎</a></td><td><code>`.mockRejectedValue(value)`</code></td><td>Asynchronous If the mock function is Rejected, return the specified <code>`value`</code></td></tr><tr><td><a href="https://jestjs.io/docs/ en/mock-function-api#mockfnmockimplementationoncefn" target="_blank" rel="noopener">📎</a></t d><td><code>`.mockImplementationOnce(implementation)`</code></td><td>(one time only) write the implementation of mock function</td></tr><tr><td> <a href="https://jestjs.io/docs/en/mock-function-api#mockfnmockreturnvalueoncevalue" target="_blank" rel="noopener">📎</a></td><td><code>
 `.mockReturnValueOnce(value)`</code></td><td>(Only once) Returns the <code>`value`</code> specified by the mock function</td></tr><tr> <td><a href="https://jestjs.io/docs/en/mock-function-api#mockfnmockresolvedvalueoncevalue" target="_blank" rel="noopener">📎</a></td><td>
 <code>`.mockResolvedValueOnce(value)`</code></td><td>(Only once) When the asynchronous mock function is resolved, the specified <code>`value`</code> is returned</code></td><td>td></tr><tr><td><a href="https://jestjs.io/docs/en/mock-function-api#mockfnmockrejectedvalueoncevalue" target="_blank" rel="noopener">📎</a></td><td><code>`.mockRejectedValueOnce(value)`</code></td><td>(Only once) The specified <code>` value when the asynchronous mock function is rejected Return `</code></td></tr></tbody></table>
+
 
  
 

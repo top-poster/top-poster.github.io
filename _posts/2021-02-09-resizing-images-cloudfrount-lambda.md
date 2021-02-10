@@ -142,6 +142,7 @@ Be aware of restrictions on the following Lambda@Edge:
  Size of</td><td>1MB</td><td>40KB</td></tr><tr><td>Maximum compressed size of Lambda functions and included libraries</td><td>50MB
  </td><td>1MB</td></tr></tbody></table>
 
+
  
 
 - Only `US-East-1` (northern Virginia) is allowed in the Lambda@Edge.

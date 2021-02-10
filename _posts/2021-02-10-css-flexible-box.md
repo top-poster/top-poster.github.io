@@ -115,6 +115,7 @@ Set the alignment method of the main-axis</td></tr><tr><td>align-content</td><td
  2 or more lines)</td></tr><tr><td>align-items</td><td>Set the alignment method of items in the cross-axis (1 line)</td>
  </tr></tbody></table>
 
+
  
 
 ### display
@@ -126,6 +127,7 @@ The display method of the same element is defined as Flex (`display: flex` and `
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  flex</td><td>Defines a Flex container with Block property</td><td></td></tr><tr><td>inline-flex</td><td> Flex with Inline property
  Define Container</td><td></td></tr></tbody></table>
+
 
  
 
@@ -160,6 +162,7 @@ td>flex-wrap</td><td>Set multiline wrapping (line breaks) for items</td><td><cod
 >
 </table>
 
+
  
 
 Let`s find out the individual properties.
@@ -171,6 +174,7 @@ Sets the main-axis of the Items.
  row-reverse</td><td>Display items as the opposite axis of <code>`row`</code></td><td></td></tr><tr><td>column<
  /td><td>Display items vertically (top to bottom)</td><td></td></tr><tr><td>column-reverse</td><td>Items <
  code>Display as the opposite axis of `column`</code></td><td></td></tr></tbody></table>
+
 
  
 
@@ -204,6 +208,7 @@ td>wrap</td><td>Wrap items into multiple lines</td><td></td></tr><tr><td>wrap-re
 >
 Wrap in multiple lines in reverse direction of `wrap`</code></td><td></td></tr></tbody></table>
 
+
  
 
 ```undefined
@@ -227,6 +232,7 @@ Sets how main-axis is sorted.
 td>Center Items</td><td></td></tr><tr><td>space-between</td><td>The start Item is aligned to the start point, and the last Item is aligned to the end point.
  The rest of the Items are evenly arranged between</td><td></td></tr><tr><td>space-around</td><td>Align Items with even margins</td>
 td><td></td></tr></tbody></table>
+
 
  
 
@@ -253,6 +259,7 @@ Note that the `flex-wrap` property allows items to be used only if they have mul
 </td></tr><tr><td>space-around</td><td>Align items including even margins</td><td></td></tr><
  /tbody></table>
 
+
  
 
 ```undefined
@@ -278,6 +285,7 @@ Therefore, to use `align-items`, the `align-content` property must be set to the
 td>Align Items by flex-end</td><td></td></tr><tr><td>center</td><td>Center Items</td>
 td><td></td></tr><tr><td>baseline</td><td>Sort Items to character baseline</td><td></td></tr></tbody></table>
 
+
  
 
 ```undefined
@@ -298,6 +306,7 @@ The attributes for Flex Items are as follows:
  </td><td>Set default width (before space distribution) of Flex Item</td></tr><tr><td>align-self</td><td>in cross-axis
  Set the item sorting method</td></tr></tbody></table>
 
+
  
 
 ### order
@@ -310,6 +319,7 @@ Negative numbers are allowed.
 
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  Number</td><td>Set the order of items</td><td><code>`0`</code></td></tr></tbody></table>
+
 
  
 
@@ -328,6 +338,7 @@ Short property that sets the width (increase, decrease, default) of the item.
  flex-grow</td><td>Set the percentage of the item's increase width</td><td><code>`0`</code></td></tr><tr><td>flex-
  shrink</td><td>Set item's reduction width ratio</td><td><code>`1`</code></td></tr><tr><td>flex-basis<
  /td><td>Set default width (before space allocation) of items</td><td><code>`auto`</code></td></tr></tbody></table>
+
 
  
 
@@ -361,6 +372,7 @@ If the item is not variable width or the value is `0`, it will not work.
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  Number</td><td>Set the percentage of the item's increasing width</td><td><code>`0`</code></td></tr></tbody></table>
 
+
  
 
 ```undefined
@@ -384,6 +396,7 @@ If the item is not variable width or the value is `0`, it will not work.
 
 <table><thead><tr><th>value</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  Number</td><td>Set item's reduction width percentage</td><td><code>`1`</code></td></tr></tbody></table>
+
 
  
 
@@ -424,6 +437,7 @@ However, if you are given a unit value, you cannot set it.
  auto</td><td>Same width as variable item</td><td><code>`auto`</code></td></tr><tr><td>unit</td><
 td>Specify in units such as px, em, cm, etc.</td><td></td></tr></tbody></table>
 
+
  
 
 ```undefined
@@ -450,6 +464,7 @@ This property takes precedence over the `align-items` property.
  Align to the flex-end of each line</td><td></td></tr><tr><td>center</td><td>center the item</td><
 td></td></tr><tr><td>baseline</td><td>Align item to character baseline</td><td></td></tr></tbody><
  /table>
+
  
 
 ```undefined

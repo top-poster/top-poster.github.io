@@ -2175,6 +2175,7 @@ td><code>`public`</code></td><td>Freely accessible from anywhere (optional)</td>
 >
 <code>`private`</code></td><td>Available only in my class</td><td>Properties, methods</td></tr></tbody></table>
 
+
  
 
 The following modifiers can be used with the above access controller:
@@ -2183,6 +2184,7 @@ For `static`, typescript can use static methods as well as static properties.
 <table><thead><tr><th>Formula</th><th>Meaning</th><th>Scope</th></tr></thead><tbody><tr><td>
  <code>`static`</code></td><td>Use statically</td><td>Properties, general methods</td></tr><tr><td><code>`readonly
  `</code></td><td>Use as read-only</td><td>Properties</td></tr></tbody></table>
+
 
  
 
@@ -2864,6 +2866,7 @@ For better understanding, type variables are 'TYPE' or 'TYPE1', 'U' is 'TYPE2' a
  Return a new type of property selected from <code>`KEY`</code> (interface)</td><td><code>`&lt;TYPE, KEY&gt;`</code></td></ tr><tr><td><code>`Omit`</code></td></td> Omit attributes from <td><code>`TYPE`</code> to <code>`KEY`</code> And return the selected new type (interface)</td><td><code>`&lt;TYPE, KEY&gt;`</code></td></tr><tr>
 <td><code>`Exclude`</code></td><td><code>`TYPE1`</code> returns new type except <code>`TYPE2`</code> (union) </td><td><code>`&lt;TYPE1, TYPE2&gt;`</code></td></tr><tr><td><code>`Extract`</code></td> <td>Return a new type extracted from <code>`TYPE2`</code> from <code>`TYPE1`</code> (union)</td><td><code>`&lt;TYPE1, TYPE2&gt;` </code></td></tr><tr><td><code>`NonNullable`</code></td><td><code><code> in `TYPE`</code> Return new type except null`</code> and <code>`undefined`</code> (union)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`Parameters`</code></td><td><code> Return the parameter type of `TYPE`</code> as a new tuple type (function, Tuple)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`ConstructorParameters`</code></td> Return parameter type of <td><code>`TYPE`</code> as new tuple type (class, tuple)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`ReturnType`</code></td><td> Return the return type of <code>`TYPE`</code> as a new type (function) </td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`InstanceType`</code></td><td>
 <code>Return the instance type of `TYPE`</code> (class)</t d><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`ThisParameterType`</code></td><td>< code>Explicit <code>`this`</code> of `TYPE`</code> Returns parameter type as a new type (function)</td><td><code>`&lt;TYPE&gt;`< Explicit <code> of /code></td></tr><tr><td><code>`OmitThisParameter`</code></td><td><code>`TYPE`</code> `this`</code> Return a new type with parameters removed (function)</td><td><code>`&lt;TYPE&gt;`</code></td></tr><tr><td><code>`ThisType`</code></td> Specify the <code>`this`</code> context of <td><code>`TYPE`</code>, no separate return ! (Interface)</td><td><code>`&lt;TYPE&gt;`</code></td></tr></tbody></table>
+
 
  
 

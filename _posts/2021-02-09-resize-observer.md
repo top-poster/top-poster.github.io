@@ -43,11 +43,13 @@ ro.observe(element)
 <table><thead><tr><th><img src="https://github.com/alrra/browser-logos/raw/master/src/chrome/chrome_64x64.png" alt="chrome"></th><th><img src="https://github.com/alrra/browser-logos/raw/master/src/safari/safari_64x64.png" alt="safari"></th><th> <img src="https://github.com/alrra/browser-logos/raw/master/src/firefox/firefox_64x64.png" alt="ff"></th><th><img src="https ://github.com/alrra/browser-logos/raw/master/src/opera/opera_64x64.png" alt="opera"></th><th><img src="https://github.com /alrra/browser-logos/raw/master/src/edge/edge_64x64.png" alt="edge"></th><th><img src="https://github.com/alrra/browser-logos /raw/master/src/archive/edge_12-18/edge_12-18_64x64.png" alt="edge"></th><th><img src="https://github.com/alrra/browser-logos /raw/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_64x64.png" alt="IE"></th></tr></thead><tbody><tr><td> Chrome</td><td>Safari</td><td>Firefox</td><td>Opera</td><td>Edge</td><td>Edge 12-18</td><td>
 IE11<br>IE 9-10 (with polyfills)**</td></tr></ tbody></table>
 
+
  
 
 ### Mobile
 
 <table><thead><tr><th><img src="https://github.com/alrra/browser-logos/raw/master/src/chrome/chrome_64x64.png" alt="chrome"></th><th><img src="https://github.com/alrra/browser-logos/raw/master/src/safari/safari_64x64.png" alt="safari"></th><th> <img src="https://github.com/alrra/browser-logos/raw/master/src/firefox/firefox_64x64.png" alt="ff"></th><th><img src="https ://github.com/alrra/browser-logos/raw/master/src/opera/opera_64x64.png" alt="opera"></th><th><img src="https://github.com /alrra/browser-logos/raw/master/src/opera-mini/opera-mini_64x64.png" alt="opera mini"></th><th><img src="https://github.com/ alrra/browser-logos/raw/master/src/archive/edge_12-18/edge_12-18_64x64.png" alt="edge"></th><th><img src="https://github.com/ alrra/browser-logos/raw/master/src/samsung-internet/samsung-internet_64x64.png" alt="samsung internet"></th></tr></thead><tbody><tr><td> Chrome</td><td>Safari</td><td>Firefox</td><td>Opera</td><td>Opera Mini</td><td>Edge</td><td>Samsung Internet</td></tr></tbody> </table>
+
 
  
 

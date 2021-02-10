@@ -58,6 +58,7 @@ Set the scope of HTML documents.
  `</code>…
  </td></tr></tbody></table>
 
+
  
 
 MDN / W3Schools
@@ -99,6 +100,7 @@ td><td>Default for elements that use the target attribute like A elements</td><t
 >
 <code>`_self`</code></td></tr></tbody></table>
 
+
  
 
 MDN / W3Schools
@@ -117,6 +119,7 @@ td></tr><tr><td>type</td><td><a href="https://developer.mozilla.org/en/docs/Web/
 >
 …
  </td><td></td></tr></tbody></table>
+
 
  
 
@@ -140,6 +143,7 @@ Set to represent metadata that cannot be represented by other metadata elements 
 >
 <td></td></tr></tbody></table>
 
+
  
 
 ```xml
@@ -157,6 +161,7 @@ Set style information (CSS).
 <table><thead><tr><th>property</th><th>meaning</th><th>default</th></tr></thead><tbody><tr><td>
  type</td><td><a href="https://developer.mozilla.org/en/docs/Web/HTTP/Basics_of_HTTP/MIME_types" target="_blank" rel="noopener">MIME type</
  a></td><td><code>`text/css`</code></td></tr></tbody></table>
+
 
  
 
@@ -323,6 +328,7 @@ Set the sorted list.
 >
 </table>
 
+
  
 
 ### <li>
@@ -332,6 +338,7 @@ Set the item.
 <table><thead><tr><th>property</th><th>meaning</th><th>value</th><th>feature</th></tr></thead><
  tbody><tr><td>value</td><td>Set the order of items</td><td>Number</td><td>The order of the following items will be reordered</td>
  </tr></tbody></table>
+
 
  
 
@@ -413,6 +420,7 @@ Set general quotes.
 <table><thead><tr><th>property</th><th>meaning</th><th>value</th></tr></thead><tbody><tr><td>
  cite</td><td>URL of quoted information</td><td>URL</td></tr></tbody></table>
 
+
  
 
 ```css
@@ -432,6 +440,7 @@ Set up hyperlinks that can be linked to different URLs such as different pages, 
 <table><thead><tr><th>property</th><th>meaning</th><th>value</th><th>default</th><th>feature</th></tr></thead><tbody><tr><td>download</td><td>means that this element will be used to download resources</td><td>Boolean</td>
 <td></td></tr><tr><td>href</td><td>Link URL</td><td>URL</td><td></td><td> Can be omitted</td></tr><tr><td>rel</td><td>The relationship between the current document and the link URL (<a href="https://developer.mozilla.org/en-US) /docs/Web/HTML/Link_types" target="_blank" rel="noopener">Link Types</a>)</td><td><code>`license`</code>, <code>`prev `</code>, <code>`next`</code>… </td><td></td><td></td></tr><tr><td>target</td><td>Display (browser tab) location of link URL</td><td><code>`_self`</code>, <code>`_blank`</code></td><td><code>`_self`</code></td><td></td>
 </tr><tr><td>type</td><td><a href="https://developer.mozilla.org/en/docs/Web/HTTP/Basics_of_HTTP/MIME_types" target in the link URL ="_blank" rel="noopener">MIME type</a></td><td><code>`text/html`</code>… </td><td></td><td></td></tr></tbody></table>
+
 
  
 
@@ -576,6 +585,7 @@ Set short quotes.
 <table><thead><tr><th>property</th><th>meaning</th><th>value</th></tr></thead><tbody><tr><td>
  cite</td><td>URL of quoted information</td><td>URL</td></tr></tbody></table>
 
+
  
 
 ```css
@@ -660,6 +670,7 @@ For the purpose of indicating the date or time.
  datetime</td><td><a href="https://www.w3.org/TR/html51/infrastructure.html#dates-and-times" target="_blank" rel="noopener">valid date
  Character</a></td><td>Date</td></tr></tbody></table>
 
+
  
 
 - IE Unsupported
@@ -709,6 +720,7 @@ Specifies the range of deleted (changed) text.
  href="https://www.w3.org/TR/html51/infrastructure.html#dates-and-times" target="_blank" rel="noopener">valid date characters</a></td>
  <td>Date</td></tr></tbody></table>
 
+
  
 
 ```css
@@ -726,6 +738,7 @@ Specifies the range of newly added (changed) text.
  cite</td><td>The URI of the resource describing the change</td><td>URI</td></tr><tr><td>datetime</td><td><a where the change occurred
  href="https://www.w3.org/TR/html51/infrastructure.html#dates-and-times" target="_blank" rel="noopener">valid date characters</a></td>
  <td>Date</td></tr></tbody></table>
+
 
  
 
@@ -800,6 +813,7 @@ Specify whether to load the file when the page loads (provided a hint)</td><td><
  tr><td>src</td><td>Content URL</td><td>URL</td><td></td></tr><tr><td>muted</td><
 td>Mute or not</td><td>Boolean</td><td></td></tr></tbody></table>
 
+
  
 
 ```css
@@ -819,6 +833,7 @@ Insert video content (MP4).
 <td>Play from the beginning again when playback ends</td><td>Boolean</td><td></td></tr><tr><td>muted</td><td>
 Mute or not</td><td>Boolean</td><td></td></tr><tr><td>poster</td><td>Video thumbnail image URL</td>
 <td>URL</td><td></td></tr><tr><td>preload</td><td>Specify whether to load the file when the page loads (provided a hint)</td><td><code>`none`</code>: do not load,<br><code>`metadata`</code>: load metadata only,<br><code>`auto`</code>: Load full file</td><td><code>`metadata`</code></td></tr><tr><td>src</td><td>Content URL</td><td>URL</td><td></td></tr><tr><td>width</td><td>Video width</td><td></td><td></td></tr><tr><td>height</td><td>Video vertical width</td><td></td><td></td></tr></tbody></table>
+
 
  
 
@@ -889,6 +904,7 @@ Landering graphics or animations using the Canvas API or WebGL API.
 <table><thead><tr><th>property</th><th>meaning</th></tr></thead><tbody><tr><td>width</td><td>
  Width of canvas</td></tr><tr><td>height</td><td>Vertical width of canvas</td></tr></tbody></table>
 
+
  
 
 ```css
@@ -912,6 +928,7 @@ Include the script code in the document or refer to it (external script).
  URL</td><td>Included script code is ignored</td></tr><tr><td>type</td><td><a href="https://developer.mozilla.
  org/en/docs/Web/HTTP/Basics_of_HTTP/MIME_types" target="_blank" rel="noopener">MIME type</a></td><td><code>`text/javascript`</code>
  (Default)</td><td></td></tr></tbody></table>
+
 
  
 
@@ -971,6 +988,7 @@ MDN / W3Schools
 </table>
 
 
+
 ```
 
 ## <table>, <tr>, <th>, <td>
@@ -1004,6 +1022,7 @@ td>colspan</td><td>Number of columns to expand (merge)</td><td></td><td><code>`1
 <code>`colgroup`</code>: all columns<br><code>`row`</code>: own rows<br><code>`rowgroup`</code>: all rows<br>
  <code>`auto`</code></td><td><code>`auto`</code></td></tr></tbody></table>
 
+
  
 
 ### <td>
@@ -1016,6 +1035,7 @@ td></tr><tr><td>colspan</td><td>Number of columns to expand (merge)</td><td></td
 >
 </td></tr><tr><td>rowspan</td><td>Number of rows to expand (merge)</td><td></td><td><code>`1
  `</code></td></tr></tbody></table>
+
 
  
 
@@ -1041,6 +1061,7 @@ The columns that commonly define the columns in the table (`<col>`) and their se
 <table><thead><tr><th>property</th><th>meaning</th><th>value</th><th>default</th></tr></thead><
  tbody><tr><td>span</td><td>Number of consecutive columns</td><td>Number</td><td><code>`1`</code></
 td></tr></tbody></table>
+
 
  
 
@@ -1080,6 +1101,7 @@ Define a range of forms for submitting information to a Web server.
 
 <table><thead><tr><th>property</th><th>meaning</th><th>value</th><th>default</th></tr></thead><tbody><tr><td>action</td><td>URL of the web page that will process the transmitted information</td><td>URL</td><td></td></tr><tr><td>autocomplete</td><td>whether to use autocomplete with values previously entered by the user</td><td><code>`on`</code>, <code>` off`</code></td><td><code>`on`</code></td></tr><tr><td>method</td><td>Send to server <a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html" target="_blank" rel="noopener">HTTP</a> method</td><td><code>`GET `</code>, <code>`POST`</code></td><td><code>`GET`</code></td></tr><tr><td>name</td><td>unique form name</td><td></td><td></td></tr><tr><td>novalidate</td><td>when sent to server Specifies not to validate form data</td><td></td><td></td></tr><tr><td>target</td><td>Send to server and respond Specify how to receive</td><td><code>`_self`</code>, <code>`_blank`</code></td><td><code>`_self`</code></td></tr></tbody></table>
 
+
  
 
 ```css
@@ -1105,6 +1127,7 @@ multiple</td><td>whether more than one value can be entered</td><td>Boolean</td>
 </td><td></td></tr><tr><td>step</td><td>Effective incremental interval</td><td>Number</td> <td><code>`1`</code></td><td><code>`type`</code> property value is <code>`number`</code>, <code>`range` </code> only</td></tr><tr><td>src</td><td>URL of the image</td><td>URL</td><td></td>
 <td><code>`type`</code> only when the attribute value is <code>`image`</code></td></tr><tr><td>alt</td><td>Alternate text for image</td><td></td><td></td><td><code>`type`</code> attribute value is <code>`image`</code> <td></tr><tr><td>type</td><td>Type of data to be input</td><td>Separately organized</td><td><code>` text`</code></td></tr><tr><td>value</td><td>initial value of form</td><td></td><td></td> <td></td></tr></tbody></table>
 
+
  
 
 ### Value of data type (Values)
@@ -1122,6 +1145,7 @@ A list of values that can be entered in the `type` property.
 <table><thead><tr><th>value</th><th>data type</th><th>characteristic</th></tr></thead><tbody><tr><td>
 button</td><td>normal button</td><td><code>`&lt;button&gt;`</code> use like</td></tr><tr><td>checkbox</td><td>Checkbox</td><td></td></tr><tr><td>color</td><td>color</td><td>IE not supported</td>
 </tr><tr><td>email</td><td>email</td><td></td></tr><tr><td>file</td><td>file </td><td></td></tr><tr><td>hidden</td><td>Form invisible but to be sent</td><td><code>`value`</code> Specify value as attribute</td></tr><tr><td>image</td><td>Submit image button</td><td><code>`&lt;img /&gt;`</ Use like code></td></tr><tr><td>number</td><td>number</td><td></td></tr><tr><td>password</td><td>secret</td><td>covered form</td></tr><tr><td>radio</td><td>radio button</td><td>like < code>`name`</code> Only one can be selected within the attribute group</td></tr><tr><td>range</td><td>Range control</td><td><code>` min`</code>, <code>`max`</code>, <code>`step`</code>, <code>`value`</code>(default) attribute use</td></ tr><tr><td>reset</td><td>reset</td><td>all forms in scope for that <code>`&lt;form&gt;`</code></td></tr> <tr><td>search</td><td>search</td><td></td></tr><tr><td>submit</td><td>submit button</td> <td> Per <code>`&lt;form&gt;`</code> Unique form within scope</td></tr><tr><td>tel</td><td>phone number</td><td> </td></tr><tr><td>text</td><td>plain text</td><td></td></tr><tr><td>url</td> <td>Absolute URL</td><td></td></tr></tbody></table>
+
 
  
 
@@ -1141,6 +1165,7 @@ The title of the labelable element (Captions
 
 <table><thead><tr><th>property</th><th>meaning</th></tr></thead><tbody><tr><td>for</td><td>
  Value of the <code>`id`</code> attribute of the labelable element to be referenced</td></tr></tbody></table>
+
 
  
 
@@ -1176,6 +1201,7 @@ td>Only if it is not a descendant of the <code>`&lt;form&gt;`</code></td></tr><t
  code>`button`</code>, <code>`reset`</code>, <code>`submit`</code></td><td></td></tr></tbody>
  </table>
 
+
  
 
 ```css
@@ -1193,6 +1219,7 @@ Multiple lines of plain text form.
 </td></tr><tr><td>form</td><td><code>`&lt;form&gt;`</code>'s <code>`id`</code> attribute value</td><td></td><td></td><td>only if they are not descendants of the <code>`&lt;form&gt;`</code></td></tr><tr>
 <td>maxlength</td><td>Maximum number of characters that can be entered</td><td>Number</td><td>Infinite</td><td></td></tr>
 <tr><td>name</td><td>Name of form</td><td></td><td></td><td></td></tr><tr> <td>placeholder</td><td>Hint of user input</td><td></td><td></td><td></td></tr><tr> <td>readonly</td><td>Unmodifiable read-only</td><td>Boolean</td><td></td><td></td></tr><tr><td>rows</td><td>Number of lines in the form</td><td>Number</td><td><code>`2`</code></td><td></td></tr></tbod y></table>
+
 
  
 
@@ -1245,6 +1272,7 @@ Group forms for the same purpose.
 td><td>Value of the <code>`id`</code> attribute of one or more <code>`&lt;form&gt;`</code> the group will belong to</td><td></td></tr
 >
 <tr><td>name</td><td>name of group</td><td></td></tr></tbody></table>
+
 
  
 
@@ -1299,6 +1327,7 @@ td>name</td><td>Name of selection menu</td><td></td><td></td></tr><tr><td>size</
  Number of rows visible at one time</td><td>Number</td><td><code>`0`</code>(Same as <code>`1`</code>
  )</td></tr></tbody></table>
 
+
  
 
 ### <datalist>
@@ -1329,6 +1358,7 @@ Group `<option>`.
  label</td><td>(required)Name of option group</td><td></td></tr><tr><td>disabled</td><td>Disable option group</td>
 td><td>Boolean</td></tr></tbody></table>
 
+
  
 
 ### <option>
@@ -1344,6 +1374,7 @@ label</td><td>Title of option to be displayed</td><td></td><td>Show embedded tex
  </td><td>Indicate that the option is selected</td><td>Boolean</td><td></td></tr><tr><td>value</td><
 td>Value to be submitted in the form</td><td></td><td>If omitted, use embedded text as value</td></tr></tbody></table>
 
+
  
 
 ## <progress>
@@ -1355,6 +1386,7 @@ Shows the progress of the job completion.
 >
 value</td><td>The progress of the operation</td><td>Number</td><td><code>`max`</code> If you omit the attribute <code>`
  Must be a number between 0`</code>~<code>`1`</code></td></tr></tbody></table>
+
 
  
 
