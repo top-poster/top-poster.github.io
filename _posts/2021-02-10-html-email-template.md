@@ -115,13 +115,9 @@ It is not recommended to exceed the practical upper limit of 800px.
 </tr>
 </table>
 
-
-
 </td>
 </tr>
 </table>
-
-
 </body>
 
 ```
@@ -186,31 +182,44 @@ In particular, it is recommended that `<table>` be initialized as follows:
 ```undefined
 <table border="0" cellpadding="0" cellspacing="0" width="100%"></table>
 
-
-
 ```
 
-<table><thead><tr><th>property</th><th>value</th><th>meaning</th></tr></thead><tbody><tr><td>
- border</td><td><code>`1`</code><br><code>`0`</code></td><td>Presence of line</td></tr><tr
->
-<td>cellpadding</td><td>Pixels</td><td>Inner margin of cell (td)</td></tr><tr><td>cellspacing</td><td>Pixels
- </td><td>Width between cells</td></tr><tr><td>width</td><td>Pixels<br><code>`%`</code></
-td><td>Width of table</td></tr></tbody></table>
+| Property | Value | Meaning |
+| ----------------- | ----------------- | ----------------- |
+| border | ``1``<br>
 
+``0'' | Whether good is good or not
+| cellpadding | Pixels | Internal margin of cell (td) |
+| cell spacing | Pixels | Width between cells |
+| width | Pixels<br>
 
- 
+``%'' | Width of the table |
 
-<table><thead><tr><th>property</th><th>value</th><th>meaning</th></tr></thead><tbody><tr><td>
- align</td><td><code>`left`</code><br><code>`right`</code><br><code>`center`</code><br><code>
- `justify`</code><br><code>`char`</code></td><td>Align the contents of the cell horizontally</td></tr><tr><td>valign</
-td><td><code>`top`</code><br><code>`middle`</code><br><code>`bottom`</code><br><code>`baseline`
- </code></td><td>Vertical alignment of the cell contents</td></tr><tr><td>bgcolor</td><td>HEX Colors</td><td>
- Color(ex&gt; <code>`#ffffff`</code>)</td></tr><tr><td>width</td><td>Pixels<br><code>`%`</
- code></td><td>Horizontal width of cell</td></tr><tr><td>height</td><td>Pixels<br><code>`%`</code><
- /td><td>cell's vertical width</td></tr></tbody></table>
+| Property | Value | Meaning |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| align | ``left``<br>
 
+``right``<br>
 
- 
+``center``<br>
+
+``justify``<br>
+
+``char'' | Horizontal alignment of cell contents |
+| valign | ``top``<br>
+
+``middle``<br>
+
+``bottom``<br>
+
+``baseline'' | Vertical alignment of cell contents |
+| bgcolor | HEX Colors | 셀의 색상(ex> ``#ffffff``) |
+| width | Pixels<br>
+
+``%'' | Width of the cell |
+| height | Pixels<br>
+
+``%'' | Lengthwise Width of Cells |
 
 Inline style refers to creating a style with HTML attributes, such as `<td style="color: #ff0000;">".
 This is useful and recommended if you do not support `<style> properly.
@@ -240,8 +249,6 @@ Therefore, you should avoid merging (Merge) cells as follows:
 </tr>
 </table>
 
-
-
 ```
 
 You can nest tables to create the same effect as merged.
@@ -260,8 +267,6 @@ It`s more complex, but it`s safely rendered on almost every email client.
 <td></td>
 </tr>
 </table>
-
-
 </td>
 </tr>
 <tr>
@@ -272,8 +277,6 @@ It`s more complex, but it`s safely rendered on almost every email client.
 <td></td>
 </tr>
 </table>
-
-
 </td>
 </tr>
 <tr>
@@ -283,13 +286,9 @@ It`s more complex, but it`s safely rendered on almost every email client.
 <td></td>
 </tr>
 </table>
-
-
 </td>
 </tr>
 </table>
-
-
 
 ```
 
@@ -484,10 +483,11 @@ GREATER THAN EQUAL OUTLOOK 9 or INTERNET EXPLORER
 - Outlook 2010: Version 14
 - Outlook 2013: Version 15
 
-<table><thead><tr><th style="text-align:center">symbol</th><th style="text-align:center">meaning</th><th style="text- align:center">example</th><th style="text-align:center">example interpretation</th></tr></thead><tbody><tr><td style="text-align :center"><code>`!`</code></td><td style="text-align:center">negative<br>(not)</td><td style="text-align: center"><code>`&lt;!--[if !IE]&gt;&lt;![endif]--&gt;`</code></td><td style="text-align:center"> Without IE browser</td></tr><tr><td style="text-align:center"><code>`lt`</code></td><td style="text-align :center">Small, less than<br>(less than)</td><td style="text-align:center"><code>`&lt;!--[if lt IE 9]&gt;&lt;! [endif]--&gt;`</code></td><td style="text-align:center">Under IE9</td></tr><tr><td style="text-align: center"><code>`lte`</code></td><td style="text-align:center">Less than or equal to, less than <br>(less than equal)</td><td style= "text-align:center"><code>`&lt;!--[if lte IE 8]&gt;&lt;![endif]--&gt;`</code></td><td style="text -align:center">IE8 or less</td></tr><tr><td style="text-align:center"><code>`gt`</code></td><td st yle="text-align:center">greater than <br>(greater than)</td><td style="text-align:center"><code>`&lt;!--[if gt IE 6 ]&gt;&lt;![endif]--&gt;`</code></td><td style="text-align:center">IE6 exceeded</td></tr><tr><td style ="text-align:center"><code>`gte`</code></td><td style="text-align:center">greater than equal<br>(greater than equal)</td><td style="text-align:center"><code>`&lt;!--[if gte IE 7]&gt;&lt;![endif]--&gt;`</code></td> <td style="text-align:center">IE7 or later</td></tr><tr><td style="text-align:center"><code>`&amp;`</code></td><td style="text-align:center">and<br>(and)</td><td style="text-align:center"><code>`&lt;!--[if (gt IE 6) &amp; (lte IE 9)]&gt;&lt;![endif]--&gt;`</code></td><td style="text-align:center">Over IE6 ~ Below IE9</td></ tr><tr><td style="text-align:center"><code>`|`</code></td><td style="text-align:center"> or <br>(or) </td><td style="text-align:center">-</td><td style="text-align:center">-</td></tr></tbody></table>
+| Symbols | Meaning | Example | Example | Example Interpretation |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| ``!'' | Negative <br>
 
-
- 
+(not) | ``
 
 ### Bulletproof Buttons
 
