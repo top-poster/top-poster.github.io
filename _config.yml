@@ -1,14 +1,14 @@
 # Site settings
-title: Log Dev
-description: "Log Dev"
-url: "https://log-dev.github.io/"
+title: Top Poster
+description: "Top Poster"
+url: "https://top-poster.github.io/"
 
 # Google Analytics
 google_analytics: G-4E7S0P2MWC
 
 # Author
 author:
-    name: logger
+    name: poster
     url:
     email:
 
