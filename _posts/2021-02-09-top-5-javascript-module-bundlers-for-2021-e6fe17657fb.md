@@ -2,7 +2,7 @@
 layout: post
 title: "2021년 상위 5개 JavaScript 모듈 번들러"
 author: "Logger"
-thumbnail: "null"
+thumbnail: "undefined"
 tags: 
 ---
 

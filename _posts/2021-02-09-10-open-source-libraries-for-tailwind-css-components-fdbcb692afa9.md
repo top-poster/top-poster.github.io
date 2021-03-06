@@ -2,7 +2,7 @@
 layout: post
 title: "Tailwind CSS 구성 요소를 위한 10개의 오픈 소스 라이브러리"
 author: "Logger"
-thumbnail: "https://cdn-images-1.medium.com/fit/t/1600/480/0*X6Hz_EphMBrsFmbP"
+thumbnail: "undefined"
 tags: 
 ---
 

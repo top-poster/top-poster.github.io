@@ -2,7 +2,7 @@
 layout: post
 title: "JS Dev를 위한 상위 8개 VS 코드 확장"
 author: "Logger"
-thumbnail: "null"
+thumbnail: "undefined"
 tags: 
 ---
 

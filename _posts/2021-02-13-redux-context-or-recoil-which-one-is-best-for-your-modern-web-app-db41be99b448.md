@@ -2,7 +2,7 @@
 layout: post
 title: "Redux, 컨텍스트 또는 Recil: 어떤 것이 최신 웹 앱에 가장 적합합니까?"
 author: "Logger"
-thumbnail: "https://cdn-images-1.medium.com/fit/t/1600/480/0*Do_eAEGfGTTF6yAC"
+thumbnail: "undefined"
 tags: 
 ---
 
